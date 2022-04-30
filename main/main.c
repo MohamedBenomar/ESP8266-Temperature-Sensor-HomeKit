@@ -71,7 +71,7 @@ void temperature_sensor_callback(uint8_t gpio) {
 }
 
 void temperature_sensor_init() {
-    xTaskCreate(temperature_sensor_task, "Temperature Sensor", 256, NULL, 2, NULL);
+    xTaskCreate(temperature_sensor_callback, "Temperature Sensor", 256, NULL, 2, NULL);
 }
 
 homekit_characteristic_t name = HOMEKIT_CHARACTERISTIC_(NAME, "Temperature Sensor");
@@ -119,7 +119,7 @@ void create_accessory_name() {
                  macaddr[3], macaddr[4], macaddr[5]);
 
         name.value = HOMEKIT_STRING(name_value);
-        string id = macaddr[2] + macaddr[3] + macaddr[4] + macaddr[5];
+        //String id = macaddr[2] + macaddr[3] + macaddr[4] + macaddr[5];
         //config.setupId = id;
 }
 
