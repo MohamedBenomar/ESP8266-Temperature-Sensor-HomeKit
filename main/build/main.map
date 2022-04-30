@@ -6133,7 +6133,7 @@ END GROUP
                 0x000000003fff1e50                _bss_end = ABSOLUTE (.)
                 0x000000003fff1e50                _heap_start = ABSOLUTE (.)
 
-.irom0.text     0x0000000040202010    0x6498c
+.irom0.text     0x0000000040202010    0x6497c
                 0x0000000040202010                _irom0_text_start = ABSOLUTE (.)
  *(.literal .text .literal.* .text.* .rodata .rodata.*)
  .text._check_boot_version
@@ -10776,1445 +10776,1445 @@ END GROUP
                 0x00000000402378b0                sdk_rcons
  *fill*         0x00000000402378ba        0x2 
  .rodata.str1.4
-                0x00000000402378bc      0x168 ./build/program.a(main.o)
-                                        0x184 (size before relaxing)
- *fill*         0x0000000040237a24        0x0 
- *fill*         0x0000000040237a24        0x0 
- *fill*         0x0000000040237a24        0x0 
- *fill*         0x0000000040237a24        0x0 
+                0x00000000402378bc      0x164 ./build/program.a(main.o)
+                                        0x180 (size before relaxing)
+ *fill*         0x0000000040237a20        0x0 
+ *fill*         0x0000000040237a20        0x0 
+ *fill*         0x0000000040237a20        0x0 
+ *fill*         0x0000000040237a20        0x0 
  .rodata.str1.4
-                0x0000000040237a24     0x17bd ./build/wifi_config.a(wifi_config.o)
+                0x0000000040237a20     0x17bd ./build/wifi_config.a(wifi_config.o)
                                        0x17c5 (size before relaxing)
- *fill*         0x00000000402391e1        0x0 
- *fill*         0x00000000402391e1        0x3 
- .rodata        0x00000000402391e4        0x6 ./build/wifi_config.a(wifi_config.o)
- *fill*         0x00000000402391ea        0x0 
- *fill*         0x00000000402391ea        0x0 
- *fill*         0x00000000402391ea        0x0 
- *fill*         0x00000000402391ea        0x0 
- *fill*         0x00000000402391ea        0x0 
- *fill*         0x00000000402391ea        0x0 
- *fill*         0x00000000402391ea        0x0 
- *fill*         0x00000000402391ea        0x0 
- *fill*         0x00000000402391ea        0x0 
- *fill*         0x00000000402391ea        0x2 
+ *fill*         0x00000000402391dd        0x0 
+ *fill*         0x00000000402391dd        0x3 
+ .rodata        0x00000000402391e0        0x6 ./build/wifi_config.a(wifi_config.o)
+ *fill*         0x00000000402391e6        0x0 
+ *fill*         0x00000000402391e6        0x0 
+ *fill*         0x00000000402391e6        0x0 
+ *fill*         0x00000000402391e6        0x0 
+ *fill*         0x00000000402391e6        0x0 
+ *fill*         0x00000000402391e6        0x0 
+ *fill*         0x00000000402391e6        0x0 
+ *fill*         0x00000000402391e6        0x0 
+ *fill*         0x00000000402391e6        0x0 
+ *fill*         0x00000000402391e6        0x2 
  .rodata.payload$6489
-                0x00000000402391ec       0x51 ./build/wifi_config.a(wifi_config.o)
- *fill*         0x000000004023923d        0x3 
+                0x00000000402391e8       0x51 ./build/wifi_config.a(wifi_config.o)
+ *fill*         0x0000000040239239        0x3 
  .rodata.http_prologue$6477
-                0x0000000040239240       0x82 ./build/wifi_config.a(wifi_config.o)
- *fill*         0x00000000402392c2        0x0 
- *fill*         0x00000000402392c2        0x0 
- *fill*         0x00000000402392c2        0x0 
- *fill*         0x00000000402392c2        0x0 
- *fill*         0x00000000402392c2        0x0 
- *fill*         0x00000000402392c2        0x2 
+                0x000000004023923c       0x82 ./build/wifi_config.a(wifi_config.o)
+ *fill*         0x00000000402392be        0x0 
+ *fill*         0x00000000402392be        0x0 
+ *fill*         0x00000000402392be        0x0 
+ *fill*         0x00000000402392be        0x0 
+ *fill*         0x00000000402392be        0x0 
+ *fill*         0x00000000402392be        0x2 
  .rodata.str1.4
-                0x00000000402392c4     0x24b1 ./build/homekit.a(server.o)
+                0x00000000402392c0     0x24b1 ./build/homekit.a(server.o)
                                        0x24f1 (size before relaxing)
- *fill*         0x000000004023b775        0x0 
- *fill*         0x000000004023b775        0x0 
- *fill*         0x000000004023b775        0x0 
- *fill*         0x000000004023b775        0x0 
- *fill*         0x000000004023b775        0x0 
- *fill*         0x000000004023b775        0x0 
- *fill*         0x000000004023b775        0x0 
- *fill*         0x000000004023b775        0x0 
- *fill*         0x000000004023b775        0x0 
- *fill*         0x000000004023b775        0x0 
- *fill*         0x000000004023b775        0x0 
- *fill*         0x000000004023b775        0x0 
- *fill*         0x000000004023b775        0x3 
+ *fill*         0x000000004023b771        0x0 
+ *fill*         0x000000004023b771        0x0 
+ *fill*         0x000000004023b771        0x0 
+ *fill*         0x000000004023b771        0x0 
+ *fill*         0x000000004023b771        0x0 
+ *fill*         0x000000004023b771        0x0 
+ *fill*         0x000000004023b771        0x0 
+ *fill*         0x000000004023b771        0x0 
+ *fill*         0x000000004023b771        0x0 
+ *fill*         0x000000004023b771        0x0 
+ *fill*         0x000000004023b771        0x0 
+ *fill*         0x000000004023b771        0x0 
+ *fill*         0x000000004023b771        0x3 
  .rodata.write_characteristic_json
-                0x000000004023b778       0x24 ./build/homekit.a(server.o)
- *fill*         0x000000004023b79c        0x0 
- *fill*         0x000000004023b79c        0x0 
- *fill*         0x000000004023b79c        0x0 
- *fill*         0x000000004023b79c        0x0 
- *fill*         0x000000004023b79c        0x0 
- *fill*         0x000000004023b79c        0x0 
- *fill*         0x000000004023b79c        0x0 
- *fill*         0x000000004023b79c        0x0 
- *fill*         0x000000004023b79c        0x0 
- .rodata        0x000000004023b79c       0x3d ./build/homekit.a(server.o)
- *fill*         0x000000004023b7d9        0x0 
- *fill*         0x000000004023b7d9        0x0 
- *fill*         0x000000004023b7d9        0x0 
- *fill*         0x000000004023b7d9        0x3 
+                0x000000004023b774       0x24 ./build/homekit.a(server.o)
+ *fill*         0x000000004023b798        0x0 
+ *fill*         0x000000004023b798        0x0 
+ *fill*         0x000000004023b798        0x0 
+ *fill*         0x000000004023b798        0x0 
+ *fill*         0x000000004023b798        0x0 
+ *fill*         0x000000004023b798        0x0 
+ *fill*         0x000000004023b798        0x0 
+ *fill*         0x000000004023b798        0x0 
+ *fill*         0x000000004023b798        0x0 
+ .rodata        0x000000004023b798       0x3d ./build/homekit.a(server.o)
+ *fill*         0x000000004023b7d5        0x0 
+ *fill*         0x000000004023b7d5        0x0 
+ *fill*         0x000000004023b7d5        0x0 
+ *fill*         0x000000004023b7d5        0x3 
  .rodata.homekit_server_on_update_characteristics
-                0x000000004023b7dc       0x24 ./build/homekit.a(server.o)
- *fill*         0x000000004023b800        0x0 
- *fill*         0x000000004023b800        0x0 
- *fill*         0x000000004023b800        0x0 
- *fill*         0x000000004023b800        0x0 
- *fill*         0x000000004023b800        0x0 
- *fill*         0x000000004023b800        0x0 
- *fill*         0x000000004023b800        0x0 
- *fill*         0x000000004023b800        0x0 
+                0x000000004023b7d8       0x24 ./build/homekit.a(server.o)
+ *fill*         0x000000004023b7fc        0x0 
+ *fill*         0x000000004023b7fc        0x0 
+ *fill*         0x000000004023b7fc        0x0 
+ *fill*         0x000000004023b7fc        0x0 
+ *fill*         0x000000004023b7fc        0x0 
+ *fill*         0x000000004023b7fc        0x0 
+ *fill*         0x000000004023b7fc        0x0 
+ *fill*         0x000000004023b7fc        0x0 
  .rodata.homekit_server_on_message_complete
-                0x000000004023b800       0x28 ./build/homekit.a(server.o)
- *fill*         0x000000004023b828        0x0 
+                0x000000004023b7fc       0x28 ./build/homekit.a(server.o)
+ *fill*         0x000000004023b824        0x0 
  .rodata.CSWTCH$92
-                0x000000004023b828       0x14 ./build/homekit.a(server.o)
+                0x000000004023b824       0x14 ./build/homekit.a(server.o)
  .rodata.CSWTCH$91
-                0x000000004023b83c       0x28 ./build/homekit.a(server.o)
- *fill*         0x000000004023b864        0x4 
+                0x000000004023b838       0x28 ./build/homekit.a(server.o)
+ *fill*         0x000000004023b860        0x0 
  .rodata.CSWTCH$78
-                0x000000004023b868       0x28 ./build/homekit.a(server.o)
+                0x000000004023b860       0x28 ./build/homekit.a(server.o)
  .rodata.CSWTCH$77
-                0x000000004023b890       0x28 ./build/homekit.a(server.o)
+                0x000000004023b888       0x28 ./build/homekit.a(server.o)
  .rodata.url$7602
-                0x000000004023b8b8       0x11 ./build/homekit.a(server.o)
- *fill*         0x000000004023b8c9        0x3 
+                0x000000004023b8b0       0x11 ./build/homekit.a(server.o)
+ *fill*         0x000000004023b8c1        0x3 
  .text.homekit_characteristic_ex_old_getter
-                0x000000004023b8cc       0x17 ./build/homekit.a(accessories.o)
-                0x000000004023b8cc                homekit_characteristic_ex_old_getter
- *fill*         0x000000004023b8e3        0x1 
+                0x000000004023b8c4       0x17 ./build/homekit.a(accessories.o)
+                0x000000004023b8c4                homekit_characteristic_ex_old_getter
+ *fill*         0x000000004023b8db        0x1 
  .text.homekit_characteristic_ex_old_setter
-                0x000000004023b8e4       0x1b ./build/homekit.a(accessories.o)
-                0x000000004023b8e4                homekit_characteristic_ex_old_setter
- *fill*         0x000000004023b8ff        0x0 
- *fill*         0x000000004023b8ff        0x1 
+                0x000000004023b8dc       0x1b ./build/homekit.a(accessories.o)
+                0x000000004023b8dc                homekit_characteristic_ex_old_setter
+ *fill*         0x000000004023b8f7        0x0 
+ *fill*         0x000000004023b8f7        0x1 
  .rodata.homekit_value_equal
-                0x000000004023b900       0x24 ./build/homekit.a(accessories.o)
+                0x000000004023b8f8       0x24 ./build/homekit.a(accessories.o)
  .rodata.homekit_value_copy
-                0x000000004023b924       0x24 ./build/homekit.a(accessories.o)
- *fill*         0x000000004023b948        0x0 
+                0x000000004023b91c       0x24 ./build/homekit.a(accessories.o)
+ *fill*         0x000000004023b940        0x0 
  .text.homekit_accessory_by_id
-                0x000000004023b948       0x1b ./build/homekit.a(accessories.o)
-                0x000000004023b948                homekit_accessory_by_id
- *fill*         0x000000004023b963        0x0 
- *fill*         0x000000004023b963        0x0 
- *fill*         0x000000004023b963        0x1 
+                0x000000004023b940       0x1b ./build/homekit.a(accessories.o)
+                0x000000004023b940                homekit_accessory_by_id
+ *fill*         0x000000004023b95b        0x0 
+ *fill*         0x000000004023b95b        0x0 
+ *fill*         0x000000004023b95b        0x1 
  .text.homekit_characteristic_by_aid_and_iid
-                0x000000004023b964       0x3c ./build/homekit.a(accessories.o)
-                0x000000004023b964                homekit_characteristic_by_aid_and_iid
+                0x000000004023b95c       0x3c ./build/homekit.a(accessories.o)
+                0x000000004023b95c                homekit_characteristic_by_aid_and_iid
  .text.homekit_characteristic_notify
-                0x000000004023b9a0       0x31 ./build/homekit.a(accessories.o)
-                0x000000004023b9a0                homekit_characteristic_notify
- *fill*         0x000000004023b9d1        0x0 
- *fill*         0x000000004023b9d1        0x3 
+                0x000000004023b998       0x31 ./build/homekit.a(accessories.o)
+                0x000000004023b998                homekit_characteristic_notify
+ *fill*         0x000000004023b9c9        0x0 
+ *fill*         0x000000004023b9c9        0x3 
  .text.homekit_characteristic_has_notify_callback
-                0x000000004023b9d4       0x1c ./build/homekit.a(accessories.o)
-                0x000000004023b9d4                homekit_characteristic_has_notify_callback
- *fill*         0x000000004023b9f0        0x0 
+                0x000000004023b9cc       0x1c ./build/homekit.a(accessories.o)
+                0x000000004023b9cc                homekit_characteristic_has_notify_callback
+ *fill*         0x000000004023b9e8        0x0 
  .rodata.str1.4
-                0x000000004023b9f0      0x469 ./build/homekit.a(storage.o)
- *fill*         0x000000004023be59        0x0 
- *fill*         0x000000004023be59        0x0 
- *fill*         0x000000004023be59        0x0 
- *fill*         0x000000004023be59        0x0 
- *fill*         0x000000004023be59        0x0 
- *fill*         0x000000004023be59        0x0 
- *fill*         0x000000004023be59        0x0 
- *fill*         0x000000004023be59        0x0 
- *fill*         0x000000004023be59        0x0 
- *fill*         0x000000004023be59        0x0 
- *fill*         0x000000004023be59        0x3 
+                0x000000004023b9e8      0x469 ./build/homekit.a(storage.o)
+ *fill*         0x000000004023be51        0x0 
+ *fill*         0x000000004023be51        0x0 
+ *fill*         0x000000004023be51        0x0 
+ *fill*         0x000000004023be51        0x0 
+ *fill*         0x000000004023be51        0x0 
+ *fill*         0x000000004023be51        0x0 
+ *fill*         0x000000004023be51        0x0 
+ *fill*         0x000000004023be51        0x0 
+ *fill*         0x000000004023be51        0x0 
+ *fill*         0x000000004023be51        0x0 
+ *fill*         0x000000004023be51        0x3 
  .rodata.magic1
-                0x000000004023be5c        0x4 ./build/homekit.a(storage.o)
-                0x000000004023be5c                magic1
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- *fill*         0x000000004023be60        0x0 
- .rodata.g      0x000000004023be60        0x1 ./build/homekit.a(crypto.o)
-                0x000000004023be60                g
- *fill*         0x000000004023be61        0x3 
- .rodata.N      0x000000004023be64      0x180 ./build/homekit.a(crypto.o)
-                0x000000004023be64                N
- *fill*         0x000000004023bfe4        0x0 
- *fill*         0x000000004023bfe4        0x0 
- *fill*         0x000000004023bfe4        0x0 
- *fill*         0x000000004023bfe4        0x0 
+                0x000000004023be54        0x4 ./build/homekit.a(storage.o)
+                0x000000004023be54                magic1
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ *fill*         0x000000004023be58        0x0 
+ .rodata.g      0x000000004023be58        0x1 ./build/homekit.a(crypto.o)
+                0x000000004023be58                g
+ *fill*         0x000000004023be59        0x3 
+ .rodata.N      0x000000004023be5c      0x180 ./build/homekit.a(crypto.o)
+                0x000000004023be5c                N
+ *fill*         0x000000004023bfdc        0x0 
+ *fill*         0x000000004023bfdc        0x0 
+ *fill*         0x000000004023bfdc        0x0 
+ *fill*         0x000000004023bfdc        0x0 
  .text.tlv_get_value
-                0x000000004023bfe4       0x1c ./build/homekit.a(tlv.o)
-                0x000000004023bfe4                tlv_get_value
+                0x000000004023bfdc       0x1c ./build/homekit.a(tlv.o)
+                0x000000004023bfdc                tlv_get_value
  .text.tlv_get_integer_value
-                0x000000004023c000       0x3e ./build/homekit.a(tlv.o)
-                0x000000004023c000                tlv_get_integer_value
- *fill*         0x000000004023c03e        0x0 
- *fill*         0x000000004023c03e        0x0 
- *fill*         0x000000004023c03e        0x0 
- *fill*         0x000000004023c03e        0x0 
- *fill*         0x000000004023c03e        0x0 
- *fill*         0x000000004023c03e        0x0 
- *fill*         0x000000004023c03e        0x0 
- *fill*         0x000000004023c03e        0x0 
- *fill*         0x000000004023c03e        0x0 
- *fill*         0x000000004023c03e        0x0 
- *fill*         0x000000004023c03e        0x0 
- *fill*         0x000000004023c03e        0x0 
- *fill*         0x000000004023c03e        0x2 
+                0x000000004023bff8       0x3e ./build/homekit.a(tlv.o)
+                0x000000004023bff8                tlv_get_integer_value
+ *fill*         0x000000004023c036        0x0 
+ *fill*         0x000000004023c036        0x0 
+ *fill*         0x000000004023c036        0x0 
+ *fill*         0x000000004023c036        0x0 
+ *fill*         0x000000004023c036        0x0 
+ *fill*         0x000000004023c036        0x0 
+ *fill*         0x000000004023c036        0x0 
+ *fill*         0x000000004023c036        0x0 
+ *fill*         0x000000004023c036        0x0 
+ *fill*         0x000000004023c036        0x0 
+ *fill*         0x000000004023c036        0x0 
+ *fill*         0x000000004023c036        0x0 
+ *fill*         0x000000004023c036        0x2 
  .rodata.str1.4
-                0x000000004023c040       0x3e ./build/homekit.a(port.o)
- *fill*         0x000000004023c07e        0x2 
+                0x000000004023c038       0x3e ./build/homekit.a(port.o)
+ *fill*         0x000000004023c076        0x2 
  .rodata.str1.4
-                0x000000004023c080      0x30f ./build/homekit.a(mdnsresponder.o)
- *fill*         0x000000004023c38f        0x0 
- *fill*         0x000000004023c38f        0x0 
- *fill*         0x000000004023c38f        0x0 
- *fill*         0x000000004023c38f        0x0 
- *fill*         0x000000004023c38f        0x0 
- *fill*         0x000000004023c38f        0x0 
- *fill*         0x000000004023c38f        0x0 
- *fill*         0x000000004023c38f        0x0 
- *fill*         0x000000004023c38f        0x0 
- *fill*         0x000000004023c38f        0x0 
- *fill*         0x000000004023c38f        0x0 
- *fill*         0x000000004023c38f        0x0 
- *fill*         0x000000004023c38f        0x0 
- *fill*         0x000000004023c38f        0x1 
+                0x000000004023c078      0x30f ./build/homekit.a(mdnsresponder.o)
+ *fill*         0x000000004023c387        0x0 
+ *fill*         0x000000004023c387        0x0 
+ *fill*         0x000000004023c387        0x0 
+ *fill*         0x000000004023c387        0x0 
+ *fill*         0x000000004023c387        0x0 
+ *fill*         0x000000004023c387        0x0 
+ *fill*         0x000000004023c387        0x0 
+ *fill*         0x000000004023c387        0x0 
+ *fill*         0x000000004023c387        0x0 
+ *fill*         0x000000004023c387        0x0 
+ *fill*         0x000000004023c387        0x0 
+ *fill*         0x000000004023c387        0x0 
+ *fill*         0x000000004023c387        0x0 
+ *fill*         0x000000004023c387        0x1 
  .rodata.gMulticastV4Addr
-                0x000000004023c390        0x4 ./build/homekit.a(mdnsresponder.o)
+                0x000000004023c388        0x4 ./build/homekit.a(mdnsresponder.o)
  .rodata.str1.4
-                0x000000004023c394        0x7 ./build/homekit.a(debug.o)
- *fill*         0x000000004023c39b        0x1 
+                0x000000004023c38c        0x7 ./build/homekit.a(debug.o)
+ *fill*         0x000000004023c393        0x1 
  .text.print_binary
-                0x000000004023c39c        0x2 ./build/homekit.a(debug.o)
-                0x000000004023c39c                print_binary
- *fill*         0x000000004023c39e        0x0 
- *fill*         0x000000004023c39e        0x0 
- *fill*         0x000000004023c39e        0x2 
+                0x000000004023c394        0x2 ./build/homekit.a(debug.o)
+                0x000000004023c394                print_binary
+ *fill*         0x000000004023c396        0x0 
+ *fill*         0x000000004023c396        0x0 
+ *fill*         0x000000004023c396        0x2 
  .text.json_flush
-                0x000000004023c3a0       0x27 ./build/homekit.a(json.o)
-                0x000000004023c3a0                json_flush
- *fill*         0x000000004023c3c7        0x1 
+                0x000000004023c398       0x27 ./build/homekit.a(json.o)
+                0x000000004023c398                json_flush
+ *fill*         0x000000004023c3bf        0x1 
  .rodata.str1.4
-                0x000000004023c3c8      0x18d ./build/homekit.a(json.o)
+                0x000000004023c3c0      0x18d ./build/homekit.a(json.o)
                                         0x199 (size before relaxing)
- *fill*         0x000000004023c555        0x0 
- *fill*         0x000000004023c555        0x0 
- *fill*         0x000000004023c555        0x0 
- *fill*         0x000000004023c555        0x0 
- *fill*         0x000000004023c555        0x0 
- *fill*         0x000000004023c555        0x0 
- *fill*         0x000000004023c555        0x0 
- *fill*         0x000000004023c555        0x0 
- *fill*         0x000000004023c555        0x0 
- *fill*         0x000000004023c555        0x3 
+ *fill*         0x000000004023c54d        0x0 
+ *fill*         0x000000004023c54d        0x0 
+ *fill*         0x000000004023c54d        0x0 
+ *fill*         0x000000004023c54d        0x0 
+ *fill*         0x000000004023c54d        0x0 
+ *fill*         0x000000004023c54d        0x0 
+ *fill*         0x000000004023c54d        0x0 
+ *fill*         0x000000004023c54d        0x0 
+ *fill*         0x000000004023c54d        0x0 
+ *fill*         0x000000004023c54d        0x3 
  .rodata.json_string
-                0x000000004023c558       0x20 ./build/homekit.a(json.o)
- *fill*         0x000000004023c578        0x0 
+                0x000000004023c550       0x20 ./build/homekit.a(json.o)
+ *fill*         0x000000004023c570        0x0 
  .text.base64_decode_char
-                0x000000004023c578       0x4c ./build/homekit.a(base64.o)
-                0x000000004023c578                base64_decode_char
- *fill*         0x000000004023c5c4        0x0 
+                0x000000004023c570       0x4c ./build/homekit.a(base64.o)
+                0x000000004023c570                base64_decode_char
+ *fill*         0x000000004023c5bc        0x0 
  .text.base64_decoded_size
-                0x000000004023c5c4       0x2f ./build/homekit.a(base64.o)
-                0x000000004023c5c4                base64_decoded_size
- *fill*         0x000000004023c5f3        0x0 
- *fill*         0x000000004023c5f3        0x0 
- *fill*         0x000000004023c5f3        0x1 
+                0x000000004023c5bc       0x2f ./build/homekit.a(base64.o)
+                0x000000004023c5bc                base64_decoded_size
+ *fill*         0x000000004023c5eb        0x0 
+ *fill*         0x000000004023c5eb        0x0 
+ *fill*         0x000000004023c5eb        0x1 
  .rodata.base64_chars
-                0x000000004023c5f4       0x41 ./build/homekit.a(base64.o)
- *fill*         0x000000004023c635        0x0 
- *fill*         0x000000004023c635        0x0 
- *fill*         0x000000004023c635        0x0 
- *fill*         0x000000004023c635        0x0 
- *fill*         0x000000004023c635        0x3 
+                0x000000004023c5ec       0x41 ./build/homekit.a(base64.o)
+ *fill*         0x000000004023c62d        0x0 
+ *fill*         0x000000004023c62d        0x0 
+ *fill*         0x000000004023c62d        0x0 
+ *fill*         0x000000004023c62d        0x0 
+ *fill*         0x000000004023c62d        0x3 
  .rodata.event_callback
-                0x000000004023c638       0x14 ./build/lwip.a(sockets.o)
- *fill*         0x000000004023c64c        0x0 
- *fill*         0x000000004023c64c        0x0 
- *fill*         0x000000004023c64c        0x0 
- *fill*         0x000000004023c64c        0x0 
- *fill*         0x000000004023c64c        0x0 
- *fill*         0x000000004023c64c        0x0 
- *fill*         0x000000004023c64c        0x0 
- *fill*         0x000000004023c64c        0x0 
- *fill*         0x000000004023c64c        0x0 
- *fill*         0x000000004023c64c        0x0 
+                0x000000004023c630       0x14 ./build/lwip.a(sockets.o)
+ *fill*         0x000000004023c644        0x0 
+ *fill*         0x000000004023c644        0x0 
+ *fill*         0x000000004023c644        0x0 
+ *fill*         0x000000004023c644        0x0 
+ *fill*         0x000000004023c644        0x0 
+ *fill*         0x000000004023c644        0x0 
+ *fill*         0x000000004023c644        0x0 
+ *fill*         0x000000004023c644        0x0 
+ *fill*         0x000000004023c644        0x0 
+ *fill*         0x000000004023c644        0x0 
  .rodata.lwip_setsockopt
-                0x000000004023c64c       0x38 ./build/lwip.a(sockets.o)
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
- *fill*         0x000000004023c684        0x0 
+                0x000000004023c644       0x38 ./build/lwip.a(sockets.o)
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
+ *fill*         0x000000004023c67c        0x0 
  .rodata.err_to_errno_table
-                0x000000004023c684       0x44 ./build/lwip.a(err.o)
- *fill*         0x000000004023c6c8        0x0 
- *fill*         0x000000004023c6c8        0x0 
- *fill*         0x000000004023c6c8        0x0 
- *fill*         0x000000004023c6c8        0x0 
- *fill*         0x000000004023c6c8        0x0 
- *fill*         0x000000004023c6c8        0x0 
- *fill*         0x000000004023c6c8        0x0 
- *fill*         0x000000004023c6c8        0x0 
- *fill*         0x000000004023c6c8        0x0 
- *fill*         0x000000004023c6c8        0x0 
- *fill*         0x000000004023c6c8        0x0 
- *fill*         0x000000004023c6c8        0x0 
- *fill*         0x000000004023c6c8        0x0 
- *fill*         0x000000004023c6c8        0x0 
- *fill*         0x000000004023c6c8        0x0 
- *fill*         0x000000004023c6c8        0x0 
+                0x000000004023c67c       0x44 ./build/lwip.a(err.o)
+ *fill*         0x000000004023c6c0        0x0 
+ *fill*         0x000000004023c6c0        0x0 
+ *fill*         0x000000004023c6c0        0x0 
+ *fill*         0x000000004023c6c0        0x0 
+ *fill*         0x000000004023c6c0        0x0 
+ *fill*         0x000000004023c6c0        0x0 
+ *fill*         0x000000004023c6c0        0x0 
+ *fill*         0x000000004023c6c0        0x0 
+ *fill*         0x000000004023c6c0        0x0 
+ *fill*         0x000000004023c6c0        0x0 
+ *fill*         0x000000004023c6c0        0x0 
+ *fill*         0x000000004023c6c0        0x0 
+ *fill*         0x000000004023c6c0        0x0 
+ *fill*         0x000000004023c6c0        0x0 
+ *fill*         0x000000004023c6c0        0x0 
+ *fill*         0x000000004023c6c0        0x0 
  .text.lwip_netconn_do_getaddr
-                0x000000004023c6c8       0x80 ./build/lwip.a(api_msg.o)
-                0x000000004023c6c8                lwip_netconn_do_getaddr
+                0x000000004023c6c0       0x80 ./build/lwip.a(api_msg.o)
+                0x000000004023c6c0                lwip_netconn_do_getaddr
  .rodata.CSWTCH$12
-                0x000000004023c748        0xc ./build/lwip.a(api_msg.o)
+                0x000000004023c740        0xc ./build/lwip.a(api_msg.o)
  .rodata.netconn_closed
-                0x000000004023c754        0x1 ./build/lwip.a(api_msg.o)
-                0x000000004023c754                netconn_closed
+                0x000000004023c74c        0x1 ./build/lwip.a(api_msg.o)
+                0x000000004023c74c                netconn_closed
  .rodata.netconn_reset
-                0x000000004023c755        0x1 ./build/lwip.a(api_msg.o)
-                0x000000004023c755                netconn_reset
+                0x000000004023c74d        0x1 ./build/lwip.a(api_msg.o)
+                0x000000004023c74d                netconn_reset
  .rodata.netconn_aborted
-                0x000000004023c756        0x1 ./build/lwip.a(api_msg.o)
-                0x000000004023c756                netconn_aborted
- *fill*         0x000000004023c757        0x0 
- *fill*         0x000000004023c757        0x0 
- *fill*         0x000000004023c757        0x0 
- *fill*         0x000000004023c757        0x0 
- *fill*         0x000000004023c757        0x1 
- .rodata        0x000000004023c758      0x100 ./build/libgcc.a(_popcount_tab.o)
-                0x000000004023c758                __popcount_tab
- .text          0x000000004023c858       0x18 ./build/libc.a(lib_a-strchr.o)
-                0x000000004023c858                strchr
- *fill*         0x000000004023c870        0x0 
- *fill*         0x000000004023c870        0x0 
- *fill*         0x000000004023c870        0x0 
- *fill*         0x000000004023c870        0x0 
- *fill*         0x000000004023c870        0x0 
- .text          0x000000004023c870       0x71 ./build/libc.a(lib_a-strtok_r.o)
-                0x000000004023c870                __strtok_r
-                0x000000004023c8d0                strtok_r
- *fill*         0x000000004023c8e1        0x0 
- *fill*         0x000000004023c8e1        0x0 
- *fill*         0x000000004023c8e1        0x0 
- *fill*         0x000000004023c8e1        0x0 
- *fill*         0x000000004023c8e1        0x0 
- *fill*         0x000000004023c8e1        0x3 
+                0x000000004023c74e        0x1 ./build/lwip.a(api_msg.o)
+                0x000000004023c74e                netconn_aborted
+ *fill*         0x000000004023c74f        0x0 
+ *fill*         0x000000004023c74f        0x0 
+ *fill*         0x000000004023c74f        0x0 
+ *fill*         0x000000004023c74f        0x0 
+ *fill*         0x000000004023c74f        0x1 
+ .rodata        0x000000004023c750      0x100 ./build/libgcc.a(_popcount_tab.o)
+                0x000000004023c750                __popcount_tab
+ .text          0x000000004023c850       0x18 ./build/libc.a(lib_a-strchr.o)
+                0x000000004023c850                strchr
+ *fill*         0x000000004023c868        0x0 
+ *fill*         0x000000004023c868        0x0 
+ *fill*         0x000000004023c868        0x0 
+ *fill*         0x000000004023c868        0x0 
+ *fill*         0x000000004023c868        0x0 
+ .text          0x000000004023c868       0x71 ./build/libc.a(lib_a-strtok_r.o)
+                0x000000004023c868                __strtok_r
+                0x000000004023c8c8                strtok_r
+ *fill*         0x000000004023c8d9        0x0 
+ *fill*         0x000000004023c8d9        0x0 
+ *fill*         0x000000004023c8d9        0x0 
+ *fill*         0x000000004023c8d9        0x0 
+ *fill*         0x000000004023c8d9        0x0 
+ *fill*         0x000000004023c8d9        0x3 
  .rodata.parse_url_char
-                0x000000004023c8e4       0x30 ./build/http-parser.a(http_parser.o)
+                0x000000004023c8dc       0x30 ./build/http-parser.a(http_parser.o)
  .text.http_message_needs_eof
-                0x000000004023c914       0x46 ./build/http-parser.a(http_parser.o)
-                0x000000004023c914                http_message_needs_eof
- *fill*         0x000000004023c95a        0x0 
- *fill*         0x000000004023c95a        0x2 
+                0x000000004023c90c       0x46 ./build/http-parser.a(http_parser.o)
+                0x000000004023c90c                http_message_needs_eof
+ *fill*         0x000000004023c952        0x0 
+ *fill*         0x000000004023c952        0x2 
  .rodata.str1.4
-                0x000000004023c95c      0xa4f ./build/http-parser.a(http_parser.o)
+                0x000000004023c954      0xa4f ./build/http-parser.a(http_parser.o)
                                         0xa57 (size before relaxing)
- *fill*         0x000000004023d3ab        0x1 
+ *fill*         0x000000004023d3a3        0x1 
  .rodata.http_parser_execute
-                0x000000004023d3ac      0x1f8 ./build/http-parser.a(http_parser.o)
- *fill*         0x000000004023d5a4        0x0 
+                0x000000004023d3a4      0x1f8 ./build/http-parser.a(http_parser.o)
+ *fill*         0x000000004023d59c        0x0 
  .rodata.__func__$2771
-                0x000000004023d5a4       0x14 ./build/http-parser.a(http_parser.o)
+                0x000000004023d59c       0x14 ./build/http-parser.a(http_parser.o)
  .rodata.normal_url_char
-                0x000000004023d5b8       0x20 ./build/http-parser.a(http_parser.o)
- .rodata.unhex  0x000000004023d5d8      0x100 ./build/http-parser.a(http_parser.o)
+                0x000000004023d5b0       0x20 ./build/http-parser.a(http_parser.o)
+ .rodata.unhex  0x000000004023d5d0      0x100 ./build/http-parser.a(http_parser.o)
  .rodata.tokens
-                0x000000004023d6d8      0x100 ./build/http-parser.a(http_parser.o)
+                0x000000004023d6d0      0x100 ./build/http-parser.a(http_parser.o)
  .rodata.method_strings
-                0x000000004023d7d8       0x84 ./build/http-parser.a(http_parser.o)
- *fill*         0x000000004023d85c        0x0 
- *fill*         0x000000004023d85c        0x0 
+                0x000000004023d7d0       0x84 ./build/http-parser.a(http_parser.o)
+ *fill*         0x000000004023d854        0x0 
+ *fill*         0x000000004023d854        0x0 
  .rodata.str1.4
-                0x000000004023d85c       0x18 ./build/dhcpserver.a(dhcpserver.o)
- *fill*         0x000000004023d874        0x0 
- *fill*         0x000000004023d874        0x0 
- *fill*         0x000000004023d874        0x0 
- *fill*         0x000000004023d874        0x0 
- *fill*         0x000000004023d874        0x0 
- *fill*         0x000000004023d874        0x0 
- *fill*         0x000000004023d874        0x0 
- *fill*         0x000000004023d874        0x0 
- *fill*         0x000000004023d874        0x0 
- *fill*         0x000000004023d874        0x0 
- .text.load_3   0x000000004023d874       0x19 ./build/wolfssl.a(fe_operations.o)
-                0x000000004023d874                load_3
- *fill*         0x000000004023d88d        0x3 
- .text.load_4   0x000000004023d890       0x22 ./build/wolfssl.a(fe_operations.o)
-                0x000000004023d890                load_4
- *fill*         0x000000004023d8b2        0x2 
- .text.fe_1     0x000000004023d8b4       0x1a ./build/wolfssl.a(fe_operations.o)
-                0x000000004023d8b4                fe_1
- *fill*         0x000000004023d8ce        0x2 
- .text.fe_0     0x000000004023d8d0       0x18 ./build/wolfssl.a(fe_operations.o)
-                0x000000004023d8d0                fe_0
- .text.fe_init  0x000000004023d8e8        0x2 ./build/wolfssl.a(fe_operations.o)
-                0x000000004023d8e8                fe_init
- *fill*         0x000000004023d8ea        0x0 
- *fill*         0x000000004023d8ea        0x2 
- .text.fe_add   0x000000004023d8ec       0x8c ./build/wolfssl.a(fe_operations.o)
-                0x000000004023d8ec                fe_add
- .text.fe_sub   0x000000004023d978       0x96 ./build/wolfssl.a(fe_operations.o)
-                0x000000004023d978                fe_sub
- *fill*         0x000000004023da0e        0x0 
- *fill*         0x000000004023da0e        0x2 
- .text.fe_copy  0x000000004023da10       0x34 ./build/wolfssl.a(fe_operations.o)
-                0x000000004023da10                fe_copy
- *fill*         0x000000004023da44        0x0 
- *fill*         0x000000004023da44        0x0 
+                0x000000004023d854       0x18 ./build/dhcpserver.a(dhcpserver.o)
+ *fill*         0x000000004023d86c        0x0 
+ *fill*         0x000000004023d86c        0x0 
+ *fill*         0x000000004023d86c        0x0 
+ *fill*         0x000000004023d86c        0x0 
+ *fill*         0x000000004023d86c        0x0 
+ *fill*         0x000000004023d86c        0x0 
+ *fill*         0x000000004023d86c        0x0 
+ *fill*         0x000000004023d86c        0x0 
+ *fill*         0x000000004023d86c        0x0 
+ *fill*         0x000000004023d86c        0x0 
+ .text.load_3   0x000000004023d86c       0x19 ./build/wolfssl.a(fe_operations.o)
+                0x000000004023d86c                load_3
+ *fill*         0x000000004023d885        0x3 
+ .text.load_4   0x000000004023d888       0x22 ./build/wolfssl.a(fe_operations.o)
+                0x000000004023d888                load_4
+ *fill*         0x000000004023d8aa        0x2 
+ .text.fe_1     0x000000004023d8ac       0x1a ./build/wolfssl.a(fe_operations.o)
+                0x000000004023d8ac                fe_1
+ *fill*         0x000000004023d8c6        0x2 
+ .text.fe_0     0x000000004023d8c8       0x18 ./build/wolfssl.a(fe_operations.o)
+                0x000000004023d8c8                fe_0
+ .text.fe_init  0x000000004023d8e0        0x2 ./build/wolfssl.a(fe_operations.o)
+                0x000000004023d8e0                fe_init
+ *fill*         0x000000004023d8e2        0x0 
+ *fill*         0x000000004023d8e2        0x2 
+ .text.fe_add   0x000000004023d8e4       0x8c ./build/wolfssl.a(fe_operations.o)
+                0x000000004023d8e4                fe_add
+ .text.fe_sub   0x000000004023d970       0x96 ./build/wolfssl.a(fe_operations.o)
+                0x000000004023d970                fe_sub
+ *fill*         0x000000004023da06        0x0 
+ *fill*         0x000000004023da06        0x2 
+ .text.fe_copy  0x000000004023da08       0x34 ./build/wolfssl.a(fe_operations.o)
+                0x000000004023da08                fe_copy
+ *fill*         0x000000004023da3c        0x0 
+ *fill*         0x000000004023da3c        0x0 
  .text.fe_cswap
-                0x000000004023da44      0x147 ./build/wolfssl.a(fe_operations.o)
-                0x000000004023da44                fe_cswap
- *fill*         0x000000004023db8b        0x0 
- *fill*         0x000000004023db8b        0x0 
- *fill*         0x000000004023db8b        0x1 
- .text.fe_neg   0x000000004023db8c       0x52 ./build/wolfssl.a(fe_operations.o)
-                0x000000004023db8c                fe_neg
- *fill*         0x000000004023dbde        0x0 
- *fill*         0x000000004023dbde        0x2 
- .text.fe_cmov  0x000000004023dbe0       0xc3 ./build/wolfssl.a(fe_operations.o)
-                0x000000004023dbe0                fe_cmov
- *fill*         0x000000004023dca3        0x1 
- .rodata.zero   0x000000004023dca4       0x20 ./build/wolfssl.a(fe_operations.o)
+                0x000000004023da3c      0x147 ./build/wolfssl.a(fe_operations.o)
+                0x000000004023da3c                fe_cswap
+ *fill*         0x000000004023db83        0x0 
+ *fill*         0x000000004023db83        0x0 
+ *fill*         0x000000004023db83        0x1 
+ .text.fe_neg   0x000000004023db84       0x52 ./build/wolfssl.a(fe_operations.o)
+                0x000000004023db84                fe_neg
+ *fill*         0x000000004023dbd6        0x0 
+ *fill*         0x000000004023dbd6        0x2 
+ .text.fe_cmov  0x000000004023dbd8       0xc3 ./build/wolfssl.a(fe_operations.o)
+                0x000000004023dbd8                fe_cmov
+ *fill*         0x000000004023dc9b        0x1 
+ .rodata.zero   0x000000004023dc9c       0x20 ./build/wolfssl.a(fe_operations.o)
  .text.rotlFixed
-                0x000000004023dcc4        0x8 ./build/wolfssl.a(misc.o)
-                0x000000004023dcc4                rotlFixed
+                0x000000004023dcbc        0x8 ./build/wolfssl.a(misc.o)
+                0x000000004023dcbc                rotlFixed
  .text.rotrFixed
-                0x000000004023dccc        0x8 ./build/wolfssl.a(misc.o)
-                0x000000004023dccc                rotrFixed
+                0x000000004023dcc4        0x8 ./build/wolfssl.a(misc.o)
+                0x000000004023dcc4                rotrFixed
  .text.rotrFixed64
-                0x000000004023dcd4       0x60 ./build/wolfssl.a(misc.o)
-                0x000000004023dcd4                rotrFixed64
- *fill*         0x000000004023dd34        0x0 
+                0x000000004023dccc       0x60 ./build/wolfssl.a(misc.o)
+                0x000000004023dccc                rotrFixed64
+ *fill*         0x000000004023dd2c        0x0 
  .text.ForceZero
-                0x000000004023dd34       0x18 ./build/wolfssl.a(misc.o)
-                0x000000004023dd34                ForceZero
+                0x000000004023dd2c       0x18 ./build/wolfssl.a(misc.o)
+                0x000000004023dd2c                ForceZero
  .text.ConstantCompare
-                0x000000004023dd4c       0x26 ./build/wolfssl.a(misc.o)
-                0x000000004023dd4c                ConstantCompare
- *fill*         0x000000004023dd72        0x2 
- .text.min      0x000000004023dd74        0x7 ./build/wolfssl.a(misc.o)
-                0x000000004023dd74                min
- *fill*         0x000000004023dd7b        0x0 
- *fill*         0x000000004023dd7b        0x0 
- *fill*         0x000000004023dd7b        0x1 
+                0x000000004023dd44       0x26 ./build/wolfssl.a(misc.o)
+                0x000000004023dd44                ConstantCompare
+ *fill*         0x000000004023dd6a        0x2 
+ .text.min      0x000000004023dd6c        0x7 ./build/wolfssl.a(misc.o)
+                0x000000004023dd6c                min
+ *fill*         0x000000004023dd73        0x0 
+ *fill*         0x000000004023dd73        0x0 
+ *fill*         0x000000004023dd73        0x1 
  .rodata.base64Encode
-                0x000000004023dd7c       0x40 ./build/wolfssl.a(coding.o)
- *fill*         0x000000004023ddbc        0x0 
- *fill*         0x000000004023ddbc        0x0 
- *fill*         0x000000004023ddbc        0x0 
- *fill*         0x000000004023ddbc        0x0 
+                0x000000004023dd74       0x40 ./build/wolfssl.a(coding.o)
+ *fill*         0x000000004023ddb4        0x0 
+ *fill*         0x000000004023ddb4        0x0 
+ *fill*         0x000000004023ddb4        0x0 
+ *fill*         0x000000004023ddb4        0x0 
  .text.wc_HmacSizeByType
-                0x000000004023ddbc       0x26 ./build/wolfssl.a(hmac.o)
-                0x000000004023ddbc                wc_HmacSizeByType
- *fill*         0x000000004023dde2        0x0 
- *fill*         0x000000004023dde2        0x0 
- *fill*         0x000000004023dde2        0x0 
- *fill*         0x000000004023dde2        0x0 
- *fill*         0x000000004023dde2        0x0 
- *fill*         0x000000004023dde2        0x0 
- *fill*         0x000000004023dde2        0x0 
- *fill*         0x000000004023dde2        0x0 
- *fill*         0x000000004023dde2        0x0 
- *fill*         0x000000004023dde2        0x0 
- *fill*         0x000000004023dde2        0x2 
+                0x000000004023ddb4       0x26 ./build/wolfssl.a(hmac.o)
+                0x000000004023ddb4                wc_HmacSizeByType
+ *fill*         0x000000004023ddda        0x0 
+ *fill*         0x000000004023ddda        0x0 
+ *fill*         0x000000004023ddda        0x0 
+ *fill*         0x000000004023ddda        0x0 
+ *fill*         0x000000004023ddda        0x0 
+ *fill*         0x000000004023ddda        0x0 
+ *fill*         0x000000004023ddda        0x0 
+ *fill*         0x000000004023ddda        0x0 
+ *fill*         0x000000004023ddda        0x0 
+ *fill*         0x000000004023ddda        0x0 
+ *fill*         0x000000004023ddda        0x2 
  .rodata.str1.4
-                0x000000004023dde4        0xb ./build/wolfssl.a(curve25519.o)
- *fill*         0x000000004023ddef        0x1 
+                0x000000004023dddc        0xb ./build/wolfssl.a(curve25519.o)
+ *fill*         0x000000004023dde7        0x1 
  .rodata.curve25519_sets
-                0x000000004023ddf0        0x8 ./build/wolfssl.a(curve25519.o)
-                0x000000004023ddf0                curve25519_sets
- *fill*         0x000000004023ddf8        0x0 
- *fill*         0x000000004023ddf8        0x0 
- *fill*         0x000000004023ddf8        0x0 
- *fill*         0x000000004023ddf8        0x0 
- *fill*         0x000000004023ddf8        0x0 
- *fill*         0x000000004023ddf8        0x0 
- *fill*         0x000000004023ddf8        0x0 
- *fill*         0x000000004023ddf8        0x0 
- .rodata.K512   0x000000004023ddf8      0x280 ./build/wolfssl.a(sha512.o)
- .text.slide    0x000000004023e078       0xc6 ./build/wolfssl.a(ge_operations.o)
- *fill*         0x000000004023e13e        0x0 
- *fill*         0x000000004023e13e        0x0 
- *fill*         0x000000004023e13e        0x0 
- *fill*         0x000000004023e13e        0x0 
- *fill*         0x000000004023e13e        0x0 
- *fill*         0x000000004023e13e        0x0 
- *fill*         0x000000004023e13e        0x0 
- *fill*         0x000000004023e13e        0x0 
- *fill*         0x000000004023e13e        0x0 
- *fill*         0x000000004023e13e        0x0 
- *fill*         0x000000004023e13e        0x0 
- *fill*         0x000000004023e13e        0x2 
- .rodata.d2     0x000000004023e140       0x28 ./build/wolfssl.a(ge_operations.o)
+                0x000000004023dde8        0x8 ./build/wolfssl.a(curve25519.o)
+                0x000000004023dde8                curve25519_sets
+ *fill*         0x000000004023ddf0        0x0 
+ *fill*         0x000000004023ddf0        0x0 
+ *fill*         0x000000004023ddf0        0x0 
+ *fill*         0x000000004023ddf0        0x0 
+ *fill*         0x000000004023ddf0        0x0 
+ *fill*         0x000000004023ddf0        0x0 
+ *fill*         0x000000004023ddf0        0x0 
+ *fill*         0x000000004023ddf0        0x0 
+ .rodata.K512   0x000000004023ddf0      0x280 ./build/wolfssl.a(sha512.o)
+ .text.slide    0x000000004023e070       0xc6 ./build/wolfssl.a(ge_operations.o)
+ *fill*         0x000000004023e136        0x0 
+ *fill*         0x000000004023e136        0x0 
+ *fill*         0x000000004023e136        0x0 
+ *fill*         0x000000004023e136        0x0 
+ *fill*         0x000000004023e136        0x0 
+ *fill*         0x000000004023e136        0x0 
+ *fill*         0x000000004023e136        0x0 
+ *fill*         0x000000004023e136        0x0 
+ *fill*         0x000000004023e136        0x0 
+ *fill*         0x000000004023e136        0x0 
+ *fill*         0x000000004023e136        0x0 
+ *fill*         0x000000004023e136        0x2 
+ .rodata.d2     0x000000004023e138       0x28 ./build/wolfssl.a(ge_operations.o)
  .rodata.sqrtm1
-                0x000000004023e168       0x28 ./build/wolfssl.a(ge_operations.o)
- .rodata.d      0x000000004023e190       0x28 ./build/wolfssl.a(ge_operations.o)
- .rodata.Bi     0x000000004023e1b8      0x3c0 ./build/wolfssl.a(ge_operations.o)
- .rodata.base   0x000000004023e578     0x7800 ./build/wolfssl.a(ge_operations.o)
- *fill*         0x0000000040245d78        0x0 
- *fill*         0x0000000040245d78        0x0 
- *fill*         0x0000000040245d78        0x0 
- *fill*         0x0000000040245d78        0x0 
- *fill*         0x0000000040245d78        0x0 
- *fill*         0x0000000040245d78        0x0 
- *fill*         0x0000000040245d78        0x0 
- *fill*         0x0000000040245d78        0x0 
+                0x000000004023e160       0x28 ./build/wolfssl.a(ge_operations.o)
+ .rodata.d      0x000000004023e188       0x28 ./build/wolfssl.a(ge_operations.o)
+ .rodata.Bi     0x000000004023e1b0      0x3c0 ./build/wolfssl.a(ge_operations.o)
+ .rodata.base   0x000000004023e570     0x7800 ./build/wolfssl.a(ge_operations.o)
+ *fill*         0x0000000040245d70        0x0 
+ *fill*         0x0000000040245d70        0x0 
+ *fill*         0x0000000040245d70        0x0 
+ *fill*         0x0000000040245d70        0x0 
+ *fill*         0x0000000040245d70        0x0 
+ *fill*         0x0000000040245d70        0x0 
+ *fill*         0x0000000040245d70        0x0 
+ *fill*         0x0000000040245d70        0x0 
  .rodata.str1.4
-                0x0000000040245d78        0x2 ./build/wolfssl.a(srp.o)
+                0x0000000040245d70        0x2 ./build/wolfssl.a(srp.o)
                                           0x6 (size before relaxing)
- *fill*         0x0000000040245d7a        0x0 
- *fill*         0x0000000040245d7a        0x0 
- *fill*         0x0000000040245d7a        0x0 
- *fill*         0x0000000040245d7a        0x0 
- *fill*         0x0000000040245d7a        0x0 
- *fill*         0x0000000040245d7a        0x0 
- *fill*         0x0000000040245d7a        0x0 
- *fill*         0x0000000040245d7a        0x0 
- *fill*         0x0000000040245d7a        0x2 
+ *fill*         0x0000000040245d72        0x0 
+ *fill*         0x0000000040245d72        0x0 
+ *fill*         0x0000000040245d72        0x0 
+ *fill*         0x0000000040245d72        0x0 
+ *fill*         0x0000000040245d72        0x0 
+ *fill*         0x0000000040245d72        0x0 
+ *fill*         0x0000000040245d72        0x0 
+ *fill*         0x0000000040245d72        0x0 
+ *fill*         0x0000000040245d72        0x2 
  .text.wc_InitRng
-                0x0000000040245d7c       0x15 ./build/wolfssl.a(random.o)
-                0x0000000040245d7c                wc_InitRng
- *fill*         0x0000000040245d91        0x0 
- *fill*         0x0000000040245d91        0x0 
- *fill*         0x0000000040245d91        0x0 
- *fill*         0x0000000040245d91        0x0 
- *fill*         0x0000000040245d91        0x3 
- .rodata.tau    0x0000000040245d94       0x10 ./build/wolfssl.a(chacha.o)
- .rodata.sigma  0x0000000040245da4       0x10 ./build/wolfssl.a(chacha.o)
- *fill*         0x0000000040245db4        0x0 
- *fill*         0x0000000040245db4        0x0 
- *fill*         0x0000000040245db4        0x0 
- .rodata.K      0x0000000040245db4      0x100 ./build/wolfssl.a(sha256.o)
- .text.mp_init  0x0000000040245eb4       0x14 ./build/wolfssl.a(integer.o)
-                0x0000000040245eb4                mp_init
- *fill*         0x0000000040245ec8        0x0 
- *fill*         0x0000000040245ec8        0x0 
- *fill*         0x0000000040245ec8        0x0 
- *fill*         0x0000000040245ec8        0x0 
- *fill*         0x0000000040245ec8        0x0 
- *fill*         0x0000000040245ec8        0x0 
- .text.mp_exch  0x0000000040245ec8       0x28 ./build/wolfssl.a(integer.o)
-                0x0000000040245ec8                mp_exch
- *fill*         0x0000000040245ef0        0x0 
- .text.mp_rshd  0x0000000040245ef0       0x60 ./build/wolfssl.a(integer.o)
-                0x0000000040245ef0                mp_rshd
- *fill*         0x0000000040245f50        0x0 
- *fill*         0x0000000040245f50        0x0 
- *fill*         0x0000000040245f50        0x0 
- *fill*         0x0000000040245f50        0x0 
- *fill*         0x0000000040245f50        0x0 
- *fill*         0x0000000040245f50        0x0 
+                0x0000000040245d74       0x15 ./build/wolfssl.a(random.o)
+                0x0000000040245d74                wc_InitRng
+ *fill*         0x0000000040245d89        0x0 
+ *fill*         0x0000000040245d89        0x0 
+ *fill*         0x0000000040245d89        0x0 
+ *fill*         0x0000000040245d89        0x0 
+ *fill*         0x0000000040245d89        0x3 
+ .rodata.tau    0x0000000040245d8c       0x10 ./build/wolfssl.a(chacha.o)
+ .rodata.sigma  0x0000000040245d9c       0x10 ./build/wolfssl.a(chacha.o)
+ *fill*         0x0000000040245dac        0x0 
+ *fill*         0x0000000040245dac        0x0 
+ *fill*         0x0000000040245dac        0x0 
+ .rodata.K      0x0000000040245dac      0x100 ./build/wolfssl.a(sha256.o)
+ .text.mp_init  0x0000000040245eac       0x14 ./build/wolfssl.a(integer.o)
+                0x0000000040245eac                mp_init
+ *fill*         0x0000000040245ec0        0x0 
+ *fill*         0x0000000040245ec0        0x0 
+ *fill*         0x0000000040245ec0        0x0 
+ *fill*         0x0000000040245ec0        0x0 
+ *fill*         0x0000000040245ec0        0x0 
+ *fill*         0x0000000040245ec0        0x0 
+ .text.mp_exch  0x0000000040245ec0       0x28 ./build/wolfssl.a(integer.o)
+                0x0000000040245ec0                mp_exch
+ *fill*         0x0000000040245ee8        0x0 
+ .text.mp_rshd  0x0000000040245ee8       0x60 ./build/wolfssl.a(integer.o)
+                0x0000000040245ee8                mp_rshd
+ *fill*         0x0000000040245f48        0x0 
+ *fill*         0x0000000040245f48        0x0 
+ *fill*         0x0000000040245f48        0x0 
+ *fill*         0x0000000040245f48        0x0 
+ *fill*         0x0000000040245f48        0x0 
+ *fill*         0x0000000040245f48        0x0 
  .text.mp_cmp_d
-                0x0000000040245f50       0x32 ./build/wolfssl.a(integer.o)
-                0x0000000040245f50                mp_cmp_d
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x0 
- *fill*         0x0000000040245f82        0x2 
+                0x0000000040245f48       0x32 ./build/wolfssl.a(integer.o)
+                0x0000000040245f48                mp_cmp_d
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x0 
+ *fill*         0x0000000040245f7a        0x2 
  .text.parse_hex4
-                0x0000000040245f84       0x49 ./build/cjson.a(cJSON.o)
- *fill*         0x0000000040245fcd        0x3 
+                0x0000000040245f7c       0x49 ./build/cjson.a(cJSON.o)
+ *fill*         0x0000000040245fc5        0x3 
  .text.buffer_skip_whitespace
-                0x0000000040245fd0       0x44 ./build/cjson.a(cJSON.o)
- *fill*         0x0000000040246014        0x0 
- *fill*         0x0000000040246014        0x0 
+                0x0000000040245fc8       0x44 ./build/cjson.a(cJSON.o)
+ *fill*         0x000000004024600c        0x0 
+ *fill*         0x000000004024600c        0x0 
  .rodata.str1.4
-                0x0000000040246014       0x28 ./build/cjson.a(cJSON.o)
+                0x000000004024600c       0x28 ./build/cjson.a(cJSON.o)
                                          0x48 (size before relaxing)
- *fill*         0x000000004024603c        0x0 
- *fill*         0x000000004024603c        0x0 
- *fill*         0x000000004024603c        0x0 
+ *fill*         0x0000000040246034        0x0 
+ *fill*         0x0000000040246034        0x0 
+ *fill*         0x0000000040246034        0x0 
  .rodata.parse_string$isra$0
-                0x000000004024603c      0x150 ./build/cjson.a(cJSON.o)
- *fill*         0x000000004024618c        0x0 
- *fill*         0x000000004024618c        0x0 
- *fill*         0x000000004024618c        0x0 
- *fill*         0x000000004024618c        0x0 
- *fill*         0x000000004024618c        0x0 
+                0x0000000040246034      0x150 ./build/cjson.a(cJSON.o)
+ *fill*         0x0000000040246184        0x0 
+ *fill*         0x0000000040246184        0x0 
+ *fill*         0x0000000040246184        0x0 
+ *fill*         0x0000000040246184        0x0 
+ *fill*         0x0000000040246184        0x0 
  .rodata.parse_value
-                0x000000004024618c       0xec ./build/cjson.a(cJSON.o)
- *fill*         0x0000000040246278        0x0 
- *fill*         0x0000000040246278        0x0 
+                0x0000000040246184       0xec ./build/cjson.a(cJSON.o)
+ *fill*         0x0000000040246270        0x0 
+ *fill*         0x0000000040246270        0x0 
  .text.cJSON_GetArraySize
-                0x0000000040246278       0x16 ./build/cjson.a(cJSON.o)
-                0x0000000040246278                cJSON_GetArraySize
- *fill*         0x000000004024628e        0x2 
+                0x0000000040246270       0x16 ./build/cjson.a(cJSON.o)
+                0x0000000040246270                cJSON_GetArraySize
+ *fill*         0x0000000040246286        0x2 
  .text.cJSON_GetArrayItem
-                0x0000000040246290       0x1c ./build/cjson.a(cJSON.o)
-                0x0000000040246290                cJSON_GetArrayItem
- *fill*         0x00000000402462ac        0x0 
- *fill*         0x00000000402462ac        0x0 
- *fill*         0x00000000402462ac        0x0 
- .text          0x00000000402462ac       0x7c ./build/libc.a(lib_a-sccl.o)
-                0x00000000402462ac                __sccl
+                0x0000000040246288       0x1c ./build/cjson.a(cJSON.o)
+                0x0000000040246288                cJSON_GetArrayItem
+ *fill*         0x00000000402462a4        0x0 
+ *fill*         0x00000000402462a4        0x0 
+ *fill*         0x00000000402462a4        0x0 
+ .text          0x00000000402462a4       0x7c ./build/libc.a(lib_a-sccl.o)
+                0x00000000402462a4                __sccl
  *(.irom.* .irom.*.* .irom0.*)
- .irom0.text    0x0000000040246328     0x20a1 ./build/sdklib/libmain.a(user_interface.o)
+ .irom0.text    0x0000000040246320     0x20a1 ./build/sdklib/libmain.a(user_interface.o)
                                        0x2601 (size before relaxing)
-                0x0000000040246eb8                sdk_wifi_get_opmode
-                0x0000000040246ecc                sdk_wifi_get_opmode_default
-                0x0000000040246f58                sdk_wifi_set_opmode_local
-                0x0000000040246fb0                sdk_wifi_set_opmode
-                0x0000000040246fc4                sdk_wifi_set_opmode_current
-                0x0000000040246fd8                sdk_system_get_checksum
-                0x0000000040247230                sdk_wifi_station_get_config
-                0x0000000040247244                sdk_wifi_station_get_config_default
-                0x0000000040247264                sdk_wifi_station_get_ap_info
-                0x0000000040247320                sdk_wifi_station_ap_number_set
-                0x0000000040247590                sdk_wifi_station_set_config
-                0x00000000402475a4                sdk_wifi_station_set_config_current
-                0x00000000402475b8                sdk_wifi_station_get_current_ap_id
-                0x00000000402475cc                sdk_wifi_station_ap_check
-                0x0000000040247604                sdk_wifi_station_ap_change
-                0x00000000402476e8                sdk_wifi_station_scan
-                0x000000004024772c                sdk_wifi_station_get_auto_connect
-                0x0000000040247740                sdk_wifi_station_set_auto_connect
-                0x0000000040247774                sdk_wifi_station_connect
-                0x00000000402477fc                sdk_wifi_station_disconnect
-                0x0000000040247888                sdk_wifi_softap_cacl_mac
-                0x00000000402478f4                sdk_wifi_softap_set_default_ssid
-                0x0000000040247a7c                sdk_wifi_softap_get_config
-                0x0000000040247a90                sdk_wifi_softap_get_config_default
-                0x0000000040247cdc                sdk_wifi_softap_set_config
-                0x0000000040247cf0                sdk_wifi_softap_set_config_current
-                0x0000000040247d04                sdk_wifi_softap_set_station_info
-                0x0000000040247d6c                sdk_wifi_softap_get_station_info
-                0x0000000040247dfc                sdk_wifi_softap_free_station_info
-                0x0000000040247e34                sdk_wifi_softap_deauth
-                0x0000000040247ee8                sdk_wifi_get_phy_mode
-                0x0000000040247ef4                sdk_wifi_set_phy_mode
-                0x0000000040247fa4                sdk_wifi_get_channel
-                0x0000000040247fbc                sdk_wifi_set_channel
-                0x0000000040247fec                sdk_wifi_promiscuous_set_mac
-                0x000000004024803c                sdk_wifi_promiscuous_enable
-                0x00000000402480e8                sdk_wifi_set_promiscuous_rx_cb
-                0x000000004024831c                sdk_wifi_status_led_install
-                0x00000000402483c4                sdk_system_get_sdk_version
- *fill*         0x00000000402483c9        0x3 
- .irom0.text    0x00000000402483cc      0x31b ./build/sdklib/libnet80211.a(ieee80211.o)
+                0x0000000040246eb0                sdk_wifi_get_opmode
+                0x0000000040246ec4                sdk_wifi_get_opmode_default
+                0x0000000040246f50                sdk_wifi_set_opmode_local
+                0x0000000040246fa8                sdk_wifi_set_opmode
+                0x0000000040246fbc                sdk_wifi_set_opmode_current
+                0x0000000040246fd0                sdk_system_get_checksum
+                0x0000000040247228                sdk_wifi_station_get_config
+                0x000000004024723c                sdk_wifi_station_get_config_default
+                0x000000004024725c                sdk_wifi_station_get_ap_info
+                0x0000000040247318                sdk_wifi_station_ap_number_set
+                0x0000000040247588                sdk_wifi_station_set_config
+                0x000000004024759c                sdk_wifi_station_set_config_current
+                0x00000000402475b0                sdk_wifi_station_get_current_ap_id
+                0x00000000402475c4                sdk_wifi_station_ap_check
+                0x00000000402475fc                sdk_wifi_station_ap_change
+                0x00000000402476e0                sdk_wifi_station_scan
+                0x0000000040247724                sdk_wifi_station_get_auto_connect
+                0x0000000040247738                sdk_wifi_station_set_auto_connect
+                0x000000004024776c                sdk_wifi_station_connect
+                0x00000000402477f4                sdk_wifi_station_disconnect
+                0x0000000040247880                sdk_wifi_softap_cacl_mac
+                0x00000000402478ec                sdk_wifi_softap_set_default_ssid
+                0x0000000040247a74                sdk_wifi_softap_get_config
+                0x0000000040247a88                sdk_wifi_softap_get_config_default
+                0x0000000040247cd4                sdk_wifi_softap_set_config
+                0x0000000040247ce8                sdk_wifi_softap_set_config_current
+                0x0000000040247cfc                sdk_wifi_softap_set_station_info
+                0x0000000040247d64                sdk_wifi_softap_get_station_info
+                0x0000000040247df4                sdk_wifi_softap_free_station_info
+                0x0000000040247e2c                sdk_wifi_softap_deauth
+                0x0000000040247ee0                sdk_wifi_get_phy_mode
+                0x0000000040247eec                sdk_wifi_set_phy_mode
+                0x0000000040247f9c                sdk_wifi_get_channel
+                0x0000000040247fb4                sdk_wifi_set_channel
+                0x0000000040247fe4                sdk_wifi_promiscuous_set_mac
+                0x0000000040248034                sdk_wifi_promiscuous_enable
+                0x00000000402480e0                sdk_wifi_set_promiscuous_rx_cb
+                0x0000000040248314                sdk_wifi_status_led_install
+                0x00000000402483bc                sdk_system_get_sdk_version
+ *fill*         0x00000000402483c1        0x3 
+ .irom0.text    0x00000000402483c4      0x31b ./build/sdklib/libnet80211.a(ieee80211.o)
                                         0x3af (size before relaxing)
-                0x0000000040248464                sdk_ieee80211_ifattach
-                0x00000000402484b8                sdk_ieee80211_mhz2ieee
-                0x0000000040248514                sdk_ieee80211_chan2ieee
-                0x0000000040248538                sdk_ieee80211_ieee2mhz
-                0x0000000040248570                sdk_ieee80211_find_channel
-                0x0000000040248598                sdk_ieee80211_find_channel_byieee
-                0x00000000402485e0                sdk_wifi_mode_set
- *fill*         0x00000000402486e7        0x1 
- .irom0.text    0x00000000402486e8       0xb6 ./build/sdklib/libnet80211.a(ieee80211_crypto.o)
+                0x000000004024845c                sdk_ieee80211_ifattach
+                0x00000000402484b0                sdk_ieee80211_mhz2ieee
+                0x000000004024850c                sdk_ieee80211_chan2ieee
+                0x0000000040248530                sdk_ieee80211_ieee2mhz
+                0x0000000040248568                sdk_ieee80211_find_channel
+                0x0000000040248590                sdk_ieee80211_find_channel_byieee
+                0x00000000402485d8                sdk_wifi_mode_set
+ *fill*         0x00000000402486df        0x1 
+ .irom0.text    0x00000000402486e0       0xb6 ./build/sdklib/libnet80211.a(ieee80211_crypto.o)
                                          0xbe (size before relaxing)
-                0x00000000402486e8                sdk_ieee80211_crypto_attach
-                0x00000000402486ec                sdk_ieee80211_crypto_available
-                0x00000000402486f0                sdk_ieee80211_crypto_setkey
-                0x00000000402486f4                sdk_ieee80211_crypto_encap
-                0x0000000040248744                sdk_ieee80211_crypto_decap
- *fill*         0x000000004024879e        0x2 
- .irom0.text    0x00000000402487a0      0xf65 ./build/sdklib/libnet80211.a(ieee80211_hostap.o)
+                0x00000000402486e0                sdk_ieee80211_crypto_attach
+                0x00000000402486e4                sdk_ieee80211_crypto_available
+                0x00000000402486e8                sdk_ieee80211_crypto_setkey
+                0x00000000402486ec                sdk_ieee80211_crypto_encap
+                0x000000004024873c                sdk_ieee80211_crypto_decap
+ *fill*         0x0000000040248796        0x2 
+ .irom0.text    0x0000000040248798      0xf65 ./build/sdklib/libnet80211.a(ieee80211_hostap.o)
                                        0x1259 (size before relaxing)
-                0x0000000040248b84                sdk_hostap_handle_timer
-                0x0000000040248c0c                sdk_hostap_input
- *fill*         0x0000000040249705        0x3 
- .irom0.text    0x0000000040249708      0xaa4 ./build/sdklib/libnet80211.a(ieee80211_ht.o)
+                0x0000000040248b7c                sdk_hostap_handle_timer
+                0x0000000040248c04                sdk_hostap_input
+ *fill*         0x00000000402496fd        0x3 
+ .irom0.text    0x0000000040249700      0xaa4 ./build/sdklib/libnet80211.a(ieee80211_ht.o)
                                         0xb54 (size before relaxing)
-                0x0000000040249718                sdk_ieee80211_ht_attach
-                0x0000000040249768                sdk_ieee80211_ht_node_init
-                0x00000000402497ac                sdk_ieee80211_ht_node_cleanup
-                0x00000000402497e4                sdk_ieee80211_parse_htcap
-                0x00000000402498cc                sdk_ieee80211_ht_updateparams
-                0x00000000402499e8                sdk_ieee80211_setup_htrates
-                0x0000000040249abc                sdk_ieee80211_setup_basic_htrates
-                0x0000000040249e24                sdk_ieee80211_add_htcap
-                0x0000000040249e40                sdk_ieee80211_add_htcap_vendor
-                0x0000000040249f64                sdk_ieee80211_add_htinfo
-                0x0000000040249f80                sdk_ieee80211_add_htinfo_vendor
- .irom0.text    0x000000004024a1ac      0x8d8 ./build/sdklib/libnet80211.a(ieee80211_input.o)
+                0x0000000040249710                sdk_ieee80211_ht_attach
+                0x0000000040249760                sdk_ieee80211_ht_node_init
+                0x00000000402497a4                sdk_ieee80211_ht_node_cleanup
+                0x00000000402497dc                sdk_ieee80211_parse_htcap
+                0x00000000402498c4                sdk_ieee80211_ht_updateparams
+                0x00000000402499e0                sdk_ieee80211_setup_htrates
+                0x0000000040249ab4                sdk_ieee80211_setup_basic_htrates
+                0x0000000040249e1c                sdk_ieee80211_add_htcap
+                0x0000000040249e38                sdk_ieee80211_add_htcap_vendor
+                0x0000000040249f5c                sdk_ieee80211_add_htinfo
+                0x0000000040249f78                sdk_ieee80211_add_htinfo_vendor
+ .irom0.text    0x000000004024a1a4      0x8d8 ./build/sdklib/libnet80211.a(ieee80211_input.o)
                                         0x950 (size before relaxing)
-                0x000000004024a200                sdk_ieee80211_decap
-                0x000000004024a308                sdk_ieee80211_setup_rates
-                0x000000004024a374                sdk_ieee80211_alloc_challenge
-                0x000000004024a3a8                sdk_ieee80211_parse_beacon
-                0x000000004024a814                sdk_ieee80211_parse_wpa
-                0x000000004024a92c                sdk_ieee80211_parse_rsn
-                0x000000004024aa28                sdk_ieee80211_parse_action
-                0x000000004024aa80                sdk_ieee80211_setup_rateset
- .irom0.text    0x000000004024aa84     0x17cb ./build/sdklib/libnet80211.a(ieee80211_output.o)
+                0x000000004024a1f8                sdk_ieee80211_decap
+                0x000000004024a300                sdk_ieee80211_setup_rates
+                0x000000004024a36c                sdk_ieee80211_alloc_challenge
+                0x000000004024a3a0                sdk_ieee80211_parse_beacon
+                0x000000004024a80c                sdk_ieee80211_parse_wpa
+                0x000000004024a924                sdk_ieee80211_parse_rsn
+                0x000000004024aa20                sdk_ieee80211_parse_action
+                0x000000004024aa78                sdk_ieee80211_setup_rateset
+ .irom0.text    0x000000004024aa7c     0x17cb ./build/sdklib/libnet80211.a(ieee80211_output.o)
                                        0x1a2f (size before relaxing)
-                0x000000004024aa8c                sdk_ieee80211_output_pbuf
-                0x000000004024ad0c                sdk_ieee80211_send_setup
-                0x000000004024ae38                sdk_ieee80211_mgmt_output
-                0x000000004024af2c                sdk_ieee80211_tx_mgt_cb
-                0x000000004024af30                sdk_ieee80211_send_nulldata
-                0x000000004024b388                sdk_ieee80211_add_rates
-                0x000000004024b3c0                sdk_ieee80211_add_xrates
-                0x000000004024b45c                sdk_ieee80211_send_probereq
-                0x000000004024b608                sdk_ieee80211_getcapinfo
-                0x000000004024b664                sdk_ieee80211_send_mgmt
-                0x000000004024bbc8                sdk_ieee80211_alloc_proberesp
-                0x000000004024bdc4                sdk_ieee80211_send_proberesp
-                0x000000004024c104                sdk_ieee80211_beacon_alloc
- *fill*         0x000000004024c24f        0x1 
- .irom0.text    0x000000004024c250      0x147 ./build/sdklib/libnet80211.a(ieee80211_phy.o)
+                0x000000004024aa84                sdk_ieee80211_output_pbuf
+                0x000000004024ad04                sdk_ieee80211_send_setup
+                0x000000004024ae30                sdk_ieee80211_mgmt_output
+                0x000000004024af24                sdk_ieee80211_tx_mgt_cb
+                0x000000004024af28                sdk_ieee80211_send_nulldata
+                0x000000004024b380                sdk_ieee80211_add_rates
+                0x000000004024b3b8                sdk_ieee80211_add_xrates
+                0x000000004024b454                sdk_ieee80211_send_probereq
+                0x000000004024b600                sdk_ieee80211_getcapinfo
+                0x000000004024b65c                sdk_ieee80211_send_mgmt
+                0x000000004024bbc0                sdk_ieee80211_alloc_proberesp
+                0x000000004024bdbc                sdk_ieee80211_send_proberesp
+                0x000000004024c0fc                sdk_ieee80211_beacon_alloc
+ *fill*         0x000000004024c247        0x1 
+ .irom0.text    0x000000004024c248      0x147 ./build/sdklib/libnet80211.a(ieee80211_phy.o)
                                         0x16f (size before relaxing)
-                0x000000004024c254                sdk_ieee80211_get_11g_ratetable
-                0x000000004024c260                sdk_ieee80211_get_ratetable
-                0x000000004024c278                sdk_ieee80211_phy_init
-                0x000000004024c2ac                sdk_ieee80211_phy_type_get
-                0x000000004024c2bc                sdk_ieee80211_setup_ratetable
-                0x000000004024c2f0                sdk_ieee80211_compute_duration
-                0x000000004024c370                sdk_ieee80211_dot11Rate_rix
- *fill*         0x000000004024c397        0x1 
- .irom0.text    0x000000004024c398      0x160 ./build/sdklib/libnet80211.a(ieee80211_power.o)
+                0x000000004024c24c                sdk_ieee80211_get_11g_ratetable
+                0x000000004024c258                sdk_ieee80211_get_ratetable
+                0x000000004024c270                sdk_ieee80211_phy_init
+                0x000000004024c2a4                sdk_ieee80211_phy_type_get
+                0x000000004024c2b4                sdk_ieee80211_setup_ratetable
+                0x000000004024c2e8                sdk_ieee80211_compute_duration
+                0x000000004024c368                sdk_ieee80211_dot11Rate_rix
+ *fill*         0x000000004024c38f        0x1 
+ .irom0.text    0x000000004024c390      0x160 ./build/sdklib/libnet80211.a(ieee80211_power.o)
                                         0x17c (size before relaxing)
-                0x000000004024c398                sdk_ieee80211_psq_init
-                0x000000004024c3b0                sdk_ieee80211_psq_cleanup
-                0x000000004024c3b8                sdk_ieee80211_set_tim
-                0x000000004024c3f8                sdk_ieee80211_pwrsave
-                0x000000004024c4c4                sdk_ieee80211_node_pwrsave
- .irom0.text    0x000000004024c4f8      0x15b ./build/sdklib/libnet80211.a(ieee80211_proto.o)
+                0x000000004024c390                sdk_ieee80211_psq_init
+                0x000000004024c3a8                sdk_ieee80211_psq_cleanup
+                0x000000004024c3b0                sdk_ieee80211_set_tim
+                0x000000004024c3f0                sdk_ieee80211_pwrsave
+                0x000000004024c4bc                sdk_ieee80211_node_pwrsave
+ .irom0.text    0x000000004024c4f0      0x15b ./build/sdklib/libnet80211.a(ieee80211_proto.o)
                                         0x177 (size before relaxing)
-                0x000000004024c4fc                sdk_ieee80211_proto_attach
-                0x000000004024c524                sdk_ieee80211_set_shortslottime
-                0x000000004024c540                sdk_ieee80211_iserp_rateset
-                0x000000004024c5d4                sdk_ieee80211_setbasicrates
-                0x000000004024c5e8                sdk_ieee80211_addbasicrates
-                0x000000004024c5fc                sdk_ieee80211_wme_initparams
-                0x000000004024c600                sdk_ieee80211_wme_updateparams
-                0x000000004024c604                sdk_ieee80211_mlme_connect_bss
- *fill*         0x000000004024c653        0x1 
- .irom0.text    0x000000004024c654      0xd11 ./build/sdklib/libnet80211.a(ieee80211_scan.o)
+                0x000000004024c4f4                sdk_ieee80211_proto_attach
+                0x000000004024c51c                sdk_ieee80211_set_shortslottime
+                0x000000004024c538                sdk_ieee80211_iserp_rateset
+                0x000000004024c5cc                sdk_ieee80211_setbasicrates
+                0x000000004024c5e0                sdk_ieee80211_addbasicrates
+                0x000000004024c5f4                sdk_ieee80211_wme_initparams
+                0x000000004024c5f8                sdk_ieee80211_wme_updateparams
+                0x000000004024c5fc                sdk_ieee80211_mlme_connect_bss
+ *fill*         0x000000004024c64b        0x1 
+ .irom0.text    0x000000004024c64c      0xd11 ./build/sdklib/libnet80211.a(ieee80211_scan.o)
                                        0x1029 (size before relaxing)
-                0x000000004024c664                sdk_ieee80211_scan_attach
-                0x000000004024c6e0                sdk_scan_start
-                0x000000004024c7bc                sdk_scan_pm_channel_op_cb
-                0x000000004024c954                sdk_scan_cancel
-                0x000000004024ca60                sdk_scan_add_bssid
-                0x000000004024ca84                sdk_scan_remove_bssid
-                0x000000004024ca90                sdk_scan_hidden_ssid
-                0x000000004024ca98                sdk_scan_add_probe_ssid
-                0x000000004024cad8                sdk_scan_remove_probe_ssid
-                0x000000004024cc08                sdk_scan_clear_channles
-                0x000000004024cc78                sdk_scan_set_desChan
-                0x000000004024cc84                sdk_scan_get_type
-                0x000000004024cc8c                sdk_cannel_scan_connect_state
-                0x000000004024cca8                sdk_scan_connect_state
-                0x000000004024ccf0                sdk_scan_check_hidden
-                0x000000004024cd20                sdk_scan_profile_check
-                0x000000004024d094                sdk_scan_parse_beacon
- *fill*         0x000000004024d365        0x3 
- .irom0.text    0x000000004024d368      0xb51 ./build/sdklib/libnet80211.a(ieee80211_sta.o)
+                0x000000004024c65c                sdk_ieee80211_scan_attach
+                0x000000004024c6d8                sdk_scan_start
+                0x000000004024c7b4                sdk_scan_pm_channel_op_cb
+                0x000000004024c94c                sdk_scan_cancel
+                0x000000004024ca58                sdk_scan_add_bssid
+                0x000000004024ca7c                sdk_scan_remove_bssid
+                0x000000004024ca88                sdk_scan_hidden_ssid
+                0x000000004024ca90                sdk_scan_add_probe_ssid
+                0x000000004024cad0                sdk_scan_remove_probe_ssid
+                0x000000004024cc00                sdk_scan_clear_channles
+                0x000000004024cc70                sdk_scan_set_desChan
+                0x000000004024cc7c                sdk_scan_get_type
+                0x000000004024cc84                sdk_cannel_scan_connect_state
+                0x000000004024cca0                sdk_scan_connect_state
+                0x000000004024cce8                sdk_scan_check_hidden
+                0x000000004024cd18                sdk_scan_profile_check
+                0x000000004024d08c                sdk_scan_parse_beacon
+ *fill*         0x000000004024d35d        0x3 
+ .irom0.text    0x000000004024d360      0xb51 ./build/sdklib/libnet80211.a(ieee80211_sta.o)
                                         0xd0d (size before relaxing)
-                0x000000004024d3c8                sdk_ieee80211_sta_new_state
-                0x000000004024d598                sdk_sta_input
-                0x000000004024d90c                sdk_ieee80211_parse_wmeparams
- *fill*         0x000000004024deb9        0x3 
- .irom0.text    0x000000004024debc      0x32e ./build/sdklib/libnet80211.a(wl_chm.o)
+                0x000000004024d3c0                sdk_ieee80211_sta_new_state
+                0x000000004024d590                sdk_sta_input
+                0x000000004024d904                sdk_ieee80211_parse_wmeparams
+ *fill*         0x000000004024deb1        0x3 
+ .irom0.text    0x000000004024deb4      0x32e ./build/sdklib/libnet80211.a(wl_chm.o)
                                         0x3da (size before relaxing)
-                0x000000004024dec8                sdk_chm_init
-                0x000000004024df74                sdk_chm_acquire_lock
-                0x000000004024dfb8                sdk_chm_release_lock
-                0x000000004024dfcc                sdk_chm_start_op
-                0x000000004024e06c                sdk_chm_end_op
-                0x000000004024e0b4                sdk_chm_cancel_op
-                0x000000004024e0e8                sdk_chm_return_home_channel
-                0x000000004024e11c                sdk_chm_set_current_channel
-                0x000000004024e194                sdk_chm_freq2index
-                0x000000004024e1bc                sdk_chm_check_same_channel
- *fill*         0x000000004024e1ea        0x2 
- .irom0.text    0x000000004024e1ec     0x1331 ./build/sdklib/libnet80211.a(wl_cnx.o)
+                0x000000004024dec0                sdk_chm_init
+                0x000000004024df6c                sdk_chm_acquire_lock
+                0x000000004024dfb0                sdk_chm_release_lock
+                0x000000004024dfc4                sdk_chm_start_op
+                0x000000004024e064                sdk_chm_end_op
+                0x000000004024e0ac                sdk_chm_cancel_op
+                0x000000004024e0e0                sdk_chm_return_home_channel
+                0x000000004024e114                sdk_chm_set_current_channel
+                0x000000004024e18c                sdk_chm_freq2index
+                0x000000004024e1b4                sdk_chm_check_same_channel
+ *fill*         0x000000004024e1e2        0x2 
+ .irom0.text    0x000000004024e1e4     0x1331 ./build/sdklib/libnet80211.a(wl_cnx.o)
                                        0x173d (size before relaxing)
-                0x000000004024e1f8                sdk_cnx_attach
-                0x000000004024e238                sdk_cnx_sta_connect_led_timer_cb
-                0x000000004024e290                sdk_cnx_sta_connect_cmd
-                0x000000004024e340                sdk_cnx_sta_scan_cmd
-                0x000000004024e594                sdk_cnx_connect_timeout
-                0x000000004024e5fc                sdk_cnx_start_handoff_cb
-                0x000000004024ea0c                sdk_cnx_bss_alloc
-                0x000000004024ed44                sdk_cnx_rc_update_rssi
-                0x000000004024edc8                sdk_cnx_rc_update_state_metric
-                0x000000004024ee34                sdk_cnx_rc_update_age
-                0x000000004024ee58                sdk_cnx_update_bss
-                0x000000004024ee90                sdk_cnx_update_bss_more
-                0x000000004024f024                sdk_cnx_sta_leave
-                0x000000004024f148                sdk_cnx_sta_associated
-                0x000000004024f1a4                sdk_cnx_node_alloc
-                0x000000004024f2d8                sdk_cnx_node_leave
-                0x000000004024f394                sdk_cnx_node_join
- *fill*         0x000000004024f51d        0x3 
- .irom0.text    0x000000004024f520      0x161 ./build/sdklib/libnet80211.a(ieee80211_action.o)
+                0x000000004024e1f0                sdk_cnx_attach
+                0x000000004024e230                sdk_cnx_sta_connect_led_timer_cb
+                0x000000004024e288                sdk_cnx_sta_connect_cmd
+                0x000000004024e338                sdk_cnx_sta_scan_cmd
+                0x000000004024e58c                sdk_cnx_connect_timeout
+                0x000000004024e5f4                sdk_cnx_start_handoff_cb
+                0x000000004024ea04                sdk_cnx_bss_alloc
+                0x000000004024ed3c                sdk_cnx_rc_update_rssi
+                0x000000004024edc0                sdk_cnx_rc_update_state_metric
+                0x000000004024ee2c                sdk_cnx_rc_update_age
+                0x000000004024ee50                sdk_cnx_update_bss
+                0x000000004024ee88                sdk_cnx_update_bss_more
+                0x000000004024f01c                sdk_cnx_sta_leave
+                0x000000004024f140                sdk_cnx_sta_associated
+                0x000000004024f19c                sdk_cnx_node_alloc
+                0x000000004024f2d0                sdk_cnx_node_leave
+                0x000000004024f38c                sdk_cnx_node_join
+ *fill*         0x000000004024f515        0x3 
+ .irom0.text    0x000000004024f518      0x161 ./build/sdklib/libnet80211.a(ieee80211_action.o)
                                         0x181 (size before relaxing)
-                0x000000004024f530                sdk_ieee80211_send_action_register
-                0x000000004024f564                sdk_ieee80211_send_action_unregister
-                0x000000004024f578                sdk_ieee80211_send_action
-                0x000000004024f5dc                sdk_ieee80211_recv_action_register
-                0x000000004024f610                sdk_ieee80211_recv_action_unregister
-                0x000000004024f624                sdk_ieee80211_recv_action
- *fill*         0x000000004024f681        0x3 
- .irom0.text    0x000000004024f684       0x45 ./build/sdklib/libnet80211.a(ieee80211_ets.o)
+                0x000000004024f528                sdk_ieee80211_send_action_register
+                0x000000004024f55c                sdk_ieee80211_send_action_unregister
+                0x000000004024f570                sdk_ieee80211_send_action
+                0x000000004024f5d4                sdk_ieee80211_recv_action_register
+                0x000000004024f608                sdk_ieee80211_recv_action_unregister
+                0x000000004024f61c                sdk_ieee80211_recv_action
+ *fill*         0x000000004024f679        0x3 
+ .irom0.text    0x000000004024f67c       0x45 ./build/sdklib/libnet80211.a(ieee80211_ets.o)
                                          0x49 (size before relaxing)
-                0x000000004024f684                sdk_ieee80211_getmgtframe
- *fill*         0x000000004024f6c9        0x3 
- .irom0.text    0x000000004024f6cc       0xfa ./build/sdklib/libphy.a(phy.o)
+                0x000000004024f67c                sdk_ieee80211_getmgtframe
+ *fill*         0x000000004024f6c1        0x3 
+ .irom0.text    0x000000004024f6c4       0xfa ./build/sdklib/libphy.a(phy.o)
                                         0x11e (size before relaxing)
-                0x000000004024f6d0                sdk_rf_init
-                0x000000004024f6ec                sdk_bb_init
-                0x000000004024f704                sdk_phy_init
-                0x000000004024f734                sdk_RFChannelSel
-                0x000000004024f750                sdk_phy_delete_channel
-                0x000000004024f768                sdk_phy_enable_agc
-                0x000000004024f780                sdk_phy_disable_agc
-                0x000000004024f798                sdk_phy_initialize_bb
-                0x000000004024f7b0                sdk_phy_set_sense
- *fill*         0x000000004024f7c6        0x2 
- .irom0.text    0x000000004024f7c8     0x14a2 ./build/sdklib/libphy.a(phy_chip_v6_ana.o)
+                0x000000004024f6c8                sdk_rf_init
+                0x000000004024f6e4                sdk_bb_init
+                0x000000004024f6fc                sdk_phy_init
+                0x000000004024f72c                sdk_RFChannelSel
+                0x000000004024f748                sdk_phy_delete_channel
+                0x000000004024f760                sdk_phy_enable_agc
+                0x000000004024f778                sdk_phy_disable_agc
+                0x000000004024f790                sdk_phy_initialize_bb
+                0x000000004024f7a8                sdk_phy_set_sense
+ *fill*         0x000000004024f7be        0x2 
+ .irom0.text    0x000000004024f7c0     0x14a2 ./build/sdklib/libphy.a(phy_chip_v6_ana.o)
                                        0x168e (size before relaxing)
-                0x000000004024f7cc                sdk_ram_pbus_set_rxgain
-                0x000000004024f8a0                sdk_ram_pbus_debugmode
-                0x000000004024f954                sdk_ram_pbus_xpd_tx_on
-                0x000000004024f9c0                sdk_set_rf_freq_offset
-                0x000000004024fa30                sdk_chip_v6_rxmax_ext_ana
-                0x000000004024fb80                sdk_ram_chip_v6_rx_init
-                0x000000004024fbb0                sdk_tsen_meas
-                0x000000004024fc5c                sdk_readvdd33
-                0x000000004024fdec                sdk_txpwr_offset
-                0x000000004024fe94                sdk_set_txcap_reg
-                0x000000004024ff14                sdk_ram_restart_cal
-                0x000000004024ff80                sdk_wait_rfpll_cal_end
-                0x0000000040250014                sdk_ram_rfpll_set_freq
-                0x0000000040250118                sdk_ram_set_channel_freq
-                0x0000000040250420                sdk_chip_60_set_channel
-                0x000000004025050c                sdk_chip_v6_set_chan_offset
-                0x0000000040250578                sdk_chip_v6_set_chan
-                0x00000000402505f0                sdk_chip_v6_set_chan_wakeup
-                0x0000000040250660                sdk_chip_v6_rf_init
-                0x000000004025086c                sdk_low_power_set
-                0x00000000402508cc                sdk_test_tout
-                0x0000000040250af8                sdk_check_data_flag
-                0x0000000040250b18                sdk_get_check_flag
- *fill*         0x0000000040250c6a        0x2 
- .irom0.text    0x0000000040250c6c     0x33f9 ./build/sdklib/libphy.a(phy_chip_v6.o)
+                0x000000004024f7c4                sdk_ram_pbus_set_rxgain
+                0x000000004024f898                sdk_ram_pbus_debugmode
+                0x000000004024f94c                sdk_ram_pbus_xpd_tx_on
+                0x000000004024f9b8                sdk_set_rf_freq_offset
+                0x000000004024fa28                sdk_chip_v6_rxmax_ext_ana
+                0x000000004024fb78                sdk_ram_chip_v6_rx_init
+                0x000000004024fba8                sdk_tsen_meas
+                0x000000004024fc54                sdk_readvdd33
+                0x000000004024fde4                sdk_txpwr_offset
+                0x000000004024fe8c                sdk_set_txcap_reg
+                0x000000004024ff0c                sdk_ram_restart_cal
+                0x000000004024ff78                sdk_wait_rfpll_cal_end
+                0x000000004025000c                sdk_ram_rfpll_set_freq
+                0x0000000040250110                sdk_ram_set_channel_freq
+                0x0000000040250418                sdk_chip_60_set_channel
+                0x0000000040250504                sdk_chip_v6_set_chan_offset
+                0x0000000040250570                sdk_chip_v6_set_chan
+                0x00000000402505e8                sdk_chip_v6_set_chan_wakeup
+                0x0000000040250658                sdk_chip_v6_rf_init
+                0x0000000040250864                sdk_low_power_set
+                0x00000000402508c4                sdk_test_tout
+                0x0000000040250af0                sdk_check_data_flag
+                0x0000000040250b10                sdk_get_check_flag
+ *fill*         0x0000000040250c62        0x2 
+ .irom0.text    0x0000000040250c64     0x33f9 ./build/sdklib/libphy.a(phy_chip_v6.o)
                                        0x3a51 (size before relaxing)
-                0x0000000040250c6c                sdk_ram_tx_mac_enable
-                0x0000000040250c70                sdk_rtc_mem_backup
-                0x0000000040250ca0                sdk_rtc_mem_recovery
-                0x0000000040250cd0                sdk_set_cal_rxdc
-                0x0000000040250d88                sdk_set_rx_gain_cal_iq
-                0x00000000402510e8                sdk_gen_rx_gain_table
-                0x0000000040251228                sdk_pbus_set_rxbbgain
-                0x00000000402512a8                sdk_set_rx_gain_testchip_50
-                0x00000000402515bc                sdk_ram_get_corr_power
-                0x00000000402516ac                sdk_check_data_func
-                0x00000000402516cc                sdk_do_noisefloor_lsleep_v50
-                0x0000000040251700                sdk_do_noisefloor
-                0x0000000040251770                sdk_start_dig_rx
-                0x00000000402517b4                sdk_stop_dig_rx
-                0x00000000402517e0                sdk_chip_v6_set_chanfreq
-                0x000000004025180c                sdk_tx_cap_init
-                0x00000000402519c8                sdk_target_power_add_backoff
-                0x0000000040251a14                sdk_tx_pwctrl_init_cal
-                0x0000000040251b7c                sdk_tx_atten_set_interp
-                0x0000000040251df0                sdk_tx_pwctrl_init
-                0x0000000040251eec                sdk_ram_get_noisefloor
-                0x0000000040251f08                sdk_get_noisefloor_sat
-                0x0000000040251f38                sdk_ram_set_noise_floor
-                0x0000000040251f94                sdk_ram_start_noisefloor
-                0x0000000040251fe0                sdk_read_hw_noisefloor
-                0x000000004025200c                sdk_noise_check_loop
-                0x0000000040252174                sdk_noise_init
-                0x0000000040252374                sdk_target_power_backoff
-                0x00000000402523c8                sdk_sdt_on_noise_start
-                0x000000004025244c                sdk_chip_v6_set_chan_rx_cmp
-                0x00000000402525d4                sdk_chip_v6_set_chan_misc
-                0x0000000040252660                sdk_phy_dig_spur_set
-                0x00000000402529b0                sdk_phy_dig_spur_prot
-                0x0000000040252be8                sdk_chip_v6_rxmax_ext_dig
-                0x0000000040252c34                sdk_chip_v6_rxmax_ext
-                0x0000000040252cd0                sdk_phy_bb_rx_cfg
-                0x0000000040253088                sdk_uart_wait_idle
-                0x00000000402530bc                sdk_phy_pbus_soc_cfg
-                0x000000004025317c                sdk_phy_gpio_cfg
-                0x00000000402534b0                sdk_tx_cont_en
-                0x0000000040253558                sdk_tx_cont_dis
-                0x00000000402535ac                sdk_tx_cont_cfg
-                0x00000000402535d0                sdk_chip_v6_initialize_bb
-                0x0000000040253770                sdk_periodic_cal
-                0x000000004025387c                sdk_bbpll_cal
-                0x0000000040253908                sdk_periodic_cal_top
-                0x0000000040253968                sdk_register_chipv6_phy_init_param
-                0x0000000040253bec                sdk_change_bbpll160_sleep
-                0x0000000040253cdc                sdk_change_bbpll160
-                0x0000000040253d0c                sdk_set_crystal_uart
-                0x0000000040253d7c                sdk_ant_switch_init
-                0x0000000040253e60                sdk_register_chipv6_phy
- *fill*         0x0000000040254065        0x3 
- .irom0.text    0x0000000040254068     0x253f ./build/sdklib/libphy.a(phy_chip_v6_cal.o)
+                0x0000000040250c64                sdk_ram_tx_mac_enable
+                0x0000000040250c68                sdk_rtc_mem_backup
+                0x0000000040250c98                sdk_rtc_mem_recovery
+                0x0000000040250cc8                sdk_set_cal_rxdc
+                0x0000000040250d80                sdk_set_rx_gain_cal_iq
+                0x00000000402510e0                sdk_gen_rx_gain_table
+                0x0000000040251220                sdk_pbus_set_rxbbgain
+                0x00000000402512a0                sdk_set_rx_gain_testchip_50
+                0x00000000402515b4                sdk_ram_get_corr_power
+                0x00000000402516a4                sdk_check_data_func
+                0x00000000402516c4                sdk_do_noisefloor_lsleep_v50
+                0x00000000402516f8                sdk_do_noisefloor
+                0x0000000040251768                sdk_start_dig_rx
+                0x00000000402517ac                sdk_stop_dig_rx
+                0x00000000402517d8                sdk_chip_v6_set_chanfreq
+                0x0000000040251804                sdk_tx_cap_init
+                0x00000000402519c0                sdk_target_power_add_backoff
+                0x0000000040251a0c                sdk_tx_pwctrl_init_cal
+                0x0000000040251b74                sdk_tx_atten_set_interp
+                0x0000000040251de8                sdk_tx_pwctrl_init
+                0x0000000040251ee4                sdk_ram_get_noisefloor
+                0x0000000040251f00                sdk_get_noisefloor_sat
+                0x0000000040251f30                sdk_ram_set_noise_floor
+                0x0000000040251f8c                sdk_ram_start_noisefloor
+                0x0000000040251fd8                sdk_read_hw_noisefloor
+                0x0000000040252004                sdk_noise_check_loop
+                0x000000004025216c                sdk_noise_init
+                0x000000004025236c                sdk_target_power_backoff
+                0x00000000402523c0                sdk_sdt_on_noise_start
+                0x0000000040252444                sdk_chip_v6_set_chan_rx_cmp
+                0x00000000402525cc                sdk_chip_v6_set_chan_misc
+                0x0000000040252658                sdk_phy_dig_spur_set
+                0x00000000402529a8                sdk_phy_dig_spur_prot
+                0x0000000040252be0                sdk_chip_v6_rxmax_ext_dig
+                0x0000000040252c2c                sdk_chip_v6_rxmax_ext
+                0x0000000040252cc8                sdk_phy_bb_rx_cfg
+                0x0000000040253080                sdk_uart_wait_idle
+                0x00000000402530b4                sdk_phy_pbus_soc_cfg
+                0x0000000040253174                sdk_phy_gpio_cfg
+                0x00000000402534a8                sdk_tx_cont_en
+                0x0000000040253550                sdk_tx_cont_dis
+                0x00000000402535a4                sdk_tx_cont_cfg
+                0x00000000402535c8                sdk_chip_v6_initialize_bb
+                0x0000000040253768                sdk_periodic_cal
+                0x0000000040253874                sdk_bbpll_cal
+                0x0000000040253900                sdk_periodic_cal_top
+                0x0000000040253960                sdk_register_chipv6_phy_init_param
+                0x0000000040253be4                sdk_change_bbpll160_sleep
+                0x0000000040253cd4                sdk_change_bbpll160
+                0x0000000040253d04                sdk_set_crystal_uart
+                0x0000000040253d74                sdk_ant_switch_init
+                0x0000000040253e58                sdk_register_chipv6_phy
+ *fill*         0x000000004025405d        0x3 
+ .irom0.text    0x0000000040254060     0x253f ./build/sdklib/libphy.a(phy_chip_v6_cal.o)
                                        0x27e3 (size before relaxing)
-                0x0000000040254068                sdk_txbbgain2dcoindex
-                0x0000000040254088                sdk_dcoindex2txbbgain
-                0x00000000402540ac                sdk_init_cal_dcoffset
-                0x0000000040254170                sdk_set_rfanagain_dc_reg
-                0x000000004025420c                sdk_set_txdc_pbus
-                0x0000000040254278                sdk_get_rf_gain_qdb
-                0x00000000402542a0                sdk_correct_rf_ana_gain
-                0x00000000402543a8                sdk_get_sar_dout
-                0x0000000040254440                sdk_cal_rf_ana_gain
-                0x0000000040254518                sdk_meas_tone_pwr_db
-                0x0000000040254588                sdk_tx_pwr_backoff
-                0x00000000402546d4                sdk_get_fcc_1m2m_pwr_offset
-                0x0000000040254710                sdk_ram_set_txbb_atten
-                0x00000000402547a4                sdk_txiq_get_mis_pwr
-                0x0000000040254848                sdk_txiq_cover
-                0x0000000040254a60                sdk_ram_rfcal_txiq
-                0x0000000040254ccc                sdk_rc_cal
-                0x0000000040254e88                sdk_get_target_power_offset
-                0x0000000040254f7c                sdk_get_pwctrl_correct
-                0x0000000040254fd4                sdk_tx_pwctrl_cal
-                0x0000000040255314                sdk_tx_pwctrl_bg_init
-                0x0000000040255384                sdk_tx_pwctrl_background
-                0x00000000402554b4                sdk_read_sar_dout
-                0x0000000040255518                sdk_ram_get_fm_sar_dout
-                0x00000000402555bc                sdk_ram_cal_tos_v60
-                0x000000004025579c                sdk_ram_get_bb_atten
-                0x00000000402557cc                sdk_ram_rfcal_txcap
-                0x0000000040255990                sdk_ram_rfcal_pwrctrl
-                0x0000000040255bac                sdk_ram_rxiq_get_mis
-                0x0000000040255d78                sdk_ram_rxiq_cover_mg_mp
-                0x0000000040255f1c                sdk_ram_rfcal_rxiq
-                0x0000000040256128                sdk_dpd_scale_set
-                0x0000000040256170                sdk_dpd_mem_write
-                0x00000000402561f8                sdk_dpd_init
- *fill*         0x00000000402565a7        0x1 
- .irom0.text    0x00000000402565a8      0x269 ./build/sdklib/libphy.a(phy_chip_v6_unused.o)
+                0x0000000040254060                sdk_txbbgain2dcoindex
+                0x0000000040254080                sdk_dcoindex2txbbgain
+                0x00000000402540a4                sdk_init_cal_dcoffset
+                0x0000000040254168                sdk_set_rfanagain_dc_reg
+                0x0000000040254204                sdk_set_txdc_pbus
+                0x0000000040254270                sdk_get_rf_gain_qdb
+                0x0000000040254298                sdk_correct_rf_ana_gain
+                0x00000000402543a0                sdk_get_sar_dout
+                0x0000000040254438                sdk_cal_rf_ana_gain
+                0x0000000040254510                sdk_meas_tone_pwr_db
+                0x0000000040254580                sdk_tx_pwr_backoff
+                0x00000000402546cc                sdk_get_fcc_1m2m_pwr_offset
+                0x0000000040254708                sdk_ram_set_txbb_atten
+                0x000000004025479c                sdk_txiq_get_mis_pwr
+                0x0000000040254840                sdk_txiq_cover
+                0x0000000040254a58                sdk_ram_rfcal_txiq
+                0x0000000040254cc4                sdk_rc_cal
+                0x0000000040254e80                sdk_get_target_power_offset
+                0x0000000040254f74                sdk_get_pwctrl_correct
+                0x0000000040254fcc                sdk_tx_pwctrl_cal
+                0x000000004025530c                sdk_tx_pwctrl_bg_init
+                0x000000004025537c                sdk_tx_pwctrl_background
+                0x00000000402554ac                sdk_read_sar_dout
+                0x0000000040255510                sdk_ram_get_fm_sar_dout
+                0x00000000402555b4                sdk_ram_cal_tos_v60
+                0x0000000040255794                sdk_ram_get_bb_atten
+                0x00000000402557c4                sdk_ram_rfcal_txcap
+                0x0000000040255988                sdk_ram_rfcal_pwrctrl
+                0x0000000040255ba4                sdk_ram_rxiq_get_mis
+                0x0000000040255d70                sdk_ram_rxiq_cover_mg_mp
+                0x0000000040255f14                sdk_ram_rfcal_rxiq
+                0x0000000040256120                sdk_dpd_scale_set
+                0x0000000040256168                sdk_dpd_mem_write
+                0x00000000402561f0                sdk_dpd_init
+ *fill*         0x000000004025659f        0x1 
+ .irom0.text    0x00000000402565a0      0x269 ./build/sdklib/libphy.a(phy_chip_v6_unused.o)
                                         0x2fd (size before relaxing)
-                0x00000000402565a8                sdk_chip_v6_set_sense
-                0x00000000402565ac                sdk_chip_v6_get_sense
-                0x00000000402565b0                sdk_chip_v6_unset_chanfreq
-                0x00000000402565bc                sdk_data_collect
-                0x0000000040256690                sdk_operation_test
-                0x0000000040256708                sdk_slop_wdt_feed
-                0x000000004025671c                sdk_slop_test
-                0x00000000402567c8                sdk_wd_reset_cnt
- *fill*         0x0000000040256811        0x3 
- .irom0.text    0x0000000040256814      0xbce ./build/sdklib/libphy.a(phy_sleep.o)
+                0x00000000402565a0                sdk_chip_v6_set_sense
+                0x00000000402565a4                sdk_chip_v6_get_sense
+                0x00000000402565a8                sdk_chip_v6_unset_chanfreq
+                0x00000000402565b4                sdk_data_collect
+                0x0000000040256688                sdk_operation_test
+                0x0000000040256700                sdk_slop_wdt_feed
+                0x0000000040256714                sdk_slop_test
+                0x00000000402567c0                sdk_wd_reset_cnt
+ *fill*         0x0000000040256809        0x3 
+ .irom0.text    0x000000004025680c      0xbce ./build/sdklib/libphy.a(phy_sleep.o)
                                         0xe02 (size before relaxing)
-                0x0000000040256814                sdk_pm_usec2rtc
-                0x0000000040256848                sdk_pm_rtc2usec
-                0x0000000040256854                sdk_pm_set_sleep_cycles
-                0x000000004025687c                sdk_pm_sleep_opt
-                0x000000004025696c                sdk_pm_wakeup_opt
-                0x00000000402569a0                sdk_get_chip_version
-                0x00000000402569e0                sdk_pm_sleep_opt_bb_off
-                0x0000000040256a20                sdk_pm_sleep_opt_bb_on
-                0x0000000040256a6c                sdk_pm_set_pll_xtal_wait_time
-                0x0000000040256ab4                sdk_pm_prepare_to_sleep
-                0x0000000040256ad8                sdk_pm_sdio_nidle
-                0x0000000040256b54                sdk_pm_goto_sleep
-                0x0000000040256bd0                sdk_pm_wait4wakeup
-                0x0000000040256c08                sdk_pm_open_rf
-                0x0000000040256c50                sdk_pm_sleep_set_mac
-                0x0000000040256cd4                sdk_pm_set_wakeup_mac
-                0x0000000040256d70                sdk_pm_check_mac_idle
-                0x0000000040256dc8                sdk_pm_set_sleep_btco
-                0x0000000040256e60                sdk_pm_set_wakeup_btco
-                0x0000000040256f68                sdk_pm_set_sleep_mode
-                0x0000000040257038                sdk_pm_unmask_bt
-                0x0000000040257098                sdk_pm_wakeup_init
-                0x0000000040257288                sdk_sleep_opt_8266
-                0x00000000402572a8                sdk_sleep_opt_bb_on_8266
-                0x00000000402572e0                sdk_sleep_reset_analog_rtcreg_8266
- *fill*         0x00000000402573e2        0x2 
- .irom0.text    0x00000000402573e4      0x9b4 ./build/sdklib/libphy.a(phy_chip_v5_romfunc.o)
+                0x000000004025680c                sdk_pm_usec2rtc
+                0x0000000040256840                sdk_pm_rtc2usec
+                0x000000004025684c                sdk_pm_set_sleep_cycles
+                0x0000000040256874                sdk_pm_sleep_opt
+                0x0000000040256964                sdk_pm_wakeup_opt
+                0x0000000040256998                sdk_get_chip_version
+                0x00000000402569d8                sdk_pm_sleep_opt_bb_off
+                0x0000000040256a18                sdk_pm_sleep_opt_bb_on
+                0x0000000040256a64                sdk_pm_set_pll_xtal_wait_time
+                0x0000000040256aac                sdk_pm_prepare_to_sleep
+                0x0000000040256ad0                sdk_pm_sdio_nidle
+                0x0000000040256b4c                sdk_pm_goto_sleep
+                0x0000000040256bc8                sdk_pm_wait4wakeup
+                0x0000000040256c00                sdk_pm_open_rf
+                0x0000000040256c48                sdk_pm_sleep_set_mac
+                0x0000000040256ccc                sdk_pm_set_wakeup_mac
+                0x0000000040256d68                sdk_pm_check_mac_idle
+                0x0000000040256dc0                sdk_pm_set_sleep_btco
+                0x0000000040256e58                sdk_pm_set_wakeup_btco
+                0x0000000040256f60                sdk_pm_set_sleep_mode
+                0x0000000040257030                sdk_pm_unmask_bt
+                0x0000000040257090                sdk_pm_wakeup_init
+                0x0000000040257280                sdk_sleep_opt_8266
+                0x00000000402572a0                sdk_sleep_opt_bb_on_8266
+                0x00000000402572d8                sdk_sleep_reset_analog_rtcreg_8266
+ *fill*         0x00000000402573da        0x2 
+ .irom0.text    0x00000000402573dc      0x9b4 ./build/sdklib/libphy.a(phy_chip_v5_romfunc.o)
                                         0xab4 (size before relaxing)
-                0x00000000402573e4                sdk_rom_abs_temp
-                0x00000000402573f0                sdk_rom_chip_v5_disable_cca
-                0x000000004025740c                sdk_rom_chip_v5_enable_cca
-                0x0000000040257428                sdk_rom_chip_v5_sense_backoff
-                0x0000000040257474                sdk_rom_dc_iq_est
-                0x00000000402574d0                sdk_rom_en_pwdet
-                0x0000000040257540                sdk_rom_get_bb_atten
-                0x0000000040257568                sdk_rom_get_corr_power
-                0x00000000402575e4                sdk_rom_get_fm_sar_dout
-                0x0000000040257680                sdk_rom_get_noisefloor
-                0x000000004025769c                sdk_rom_get_power_db
-                0x00000000402576ec                sdk_rom_iq_est_disable
-                0x000000004025771c                sdk_rom_iq_est_enable
-                0x0000000040257770                sdk_rom_linear_to_db
-                0x00000000402577e8                sdk_rom_set_txclk_en
-                0x000000004025782c                sdk_rom_set_rxclk_en
-                0x0000000040257870                sdk_rom_mhz2ieee
-                0x00000000402578d4                sdk_rom_rxiq_get_mis
-                0x00000000402579fc                sdk_rom_sar_init
-                0x0000000040257a50                sdk_rom_set_ana_inf_tx_scale
-                0x0000000040257a8c                sdk_rom_set_loopback_gain
-                0x0000000040257af0                sdk_rom_set_noise_floor
-                0x0000000040257b2c                sdk_rom_start_noisefloor
-                0x0000000040257b68                sdk_rom_start_tx_tone
-                0x0000000040257c30                sdk_rom_stop_tx_tone
-                0x0000000040257cbc                sdk_rom_txtone_linear_pwr
-                0x0000000040257d28                sdk_rom_tx_mac_disable
-                0x0000000040257d64                sdk_rom_tx_mac_enable
- .irom0.text    0x0000000040257d98      0xf83 ./build/sdklib/libphy.a(phy_chip_v5_ana_romfunc.o)
+                0x00000000402573dc                sdk_rom_abs_temp
+                0x00000000402573e8                sdk_rom_chip_v5_disable_cca
+                0x0000000040257404                sdk_rom_chip_v5_enable_cca
+                0x0000000040257420                sdk_rom_chip_v5_sense_backoff
+                0x000000004025746c                sdk_rom_dc_iq_est
+                0x00000000402574c8                sdk_rom_en_pwdet
+                0x0000000040257538                sdk_rom_get_bb_atten
+                0x0000000040257560                sdk_rom_get_corr_power
+                0x00000000402575dc                sdk_rom_get_fm_sar_dout
+                0x0000000040257678                sdk_rom_get_noisefloor
+                0x0000000040257694                sdk_rom_get_power_db
+                0x00000000402576e4                sdk_rom_iq_est_disable
+                0x0000000040257714                sdk_rom_iq_est_enable
+                0x0000000040257768                sdk_rom_linear_to_db
+                0x00000000402577e0                sdk_rom_set_txclk_en
+                0x0000000040257824                sdk_rom_set_rxclk_en
+                0x0000000040257868                sdk_rom_mhz2ieee
+                0x00000000402578cc                sdk_rom_rxiq_get_mis
+                0x00000000402579f4                sdk_rom_sar_init
+                0x0000000040257a48                sdk_rom_set_ana_inf_tx_scale
+                0x0000000040257a84                sdk_rom_set_loopback_gain
+                0x0000000040257ae8                sdk_rom_set_noise_floor
+                0x0000000040257b24                sdk_rom_start_noisefloor
+                0x0000000040257b60                sdk_rom_start_tx_tone
+                0x0000000040257c28                sdk_rom_stop_tx_tone
+                0x0000000040257cb4                sdk_rom_txtone_linear_pwr
+                0x0000000040257d20                sdk_rom_tx_mac_disable
+                0x0000000040257d5c                sdk_rom_tx_mac_enable
+ .irom0.text    0x0000000040257d90      0xf83 ./build/sdklib/libphy.a(phy_chip_v5_ana_romfunc.o)
                                        0x112b (size before relaxing)
-                0x0000000040257d98                sdk_rom_ana_inf_gating_en
-                0x0000000040257f04                sdk_rom_set_channel_freq
-                0x000000004025821c                sdk_rom_chip_50_set_channel
-                0x000000004025841c                sdk_rom_chip_v5_rx_init
-                0x0000000040258488                sdk_rom_chip_v5_tx_init
-                0x000000004025855c                sdk_rom_i2c_readReg
-                0x0000000040258590                sdk_rom_i2c_readReg_Mask
-                0x00000000402585cc                sdk_rom_i2c_writeReg
-                0x0000000040258600                sdk_rom_i2c_writeReg_Mask
-                0x0000000040258670                sdk_rom_pbus_debugmode
-                0x0000000040258700                sdk_rom_pbus_enter_debugmode
-                0x0000000040258734                sdk_rom_pbus_exit_debugmode
-                0x0000000040258764                sdk_rom_pbus_force_test
-                0x00000000402587c4                sdk_rom_pbus_rd
-                0x0000000040258830                sdk_rom_pbus_set_rxgain
-                0x00000000402588f4                sdk_rom_pbus_set_txgain
-                0x0000000040258928                sdk_rom_pbus_workmode
-                0x0000000040258968                sdk_rom_pbus_xpd_rx_off
-                0x00000000402589b0                sdk_rom_pbus_xpd_rx_on
-                0x00000000402589e0                sdk_rom_pbus_xpd_tx_off
-                0x0000000040258a20                sdk_rom_pbus_xpd_tx_on
-                0x0000000040258a80                sdk_rom_pbus_xpd_tx_on__low_gain
-                0x0000000040258ae4                sdk_rom_phy_reset_req
-                0x0000000040258afc                sdk_rom_restart_cal
-                0x0000000040258b48                sdk_rom_rfpll_reset
-                0x0000000040258bb8                sdk_rom_write_rfpll_sdm
-                0x0000000040258c3c                sdk_rom_rfpll_set_freq
- *fill*         0x0000000040258d1b        0x1 
- .irom0.text    0x0000000040258d1c     0x1136 ./build/sdklib/libphy.a(phy_chip_v5_cal_romfunc.o)
+                0x0000000040257d90                sdk_rom_ana_inf_gating_en
+                0x0000000040257efc                sdk_rom_set_channel_freq
+                0x0000000040258214                sdk_rom_chip_50_set_channel
+                0x0000000040258414                sdk_rom_chip_v5_rx_init
+                0x0000000040258480                sdk_rom_chip_v5_tx_init
+                0x0000000040258554                sdk_rom_i2c_readReg
+                0x0000000040258588                sdk_rom_i2c_readReg_Mask
+                0x00000000402585c4                sdk_rom_i2c_writeReg
+                0x00000000402585f8                sdk_rom_i2c_writeReg_Mask
+                0x0000000040258668                sdk_rom_pbus_debugmode
+                0x00000000402586f8                sdk_rom_pbus_enter_debugmode
+                0x000000004025872c                sdk_rom_pbus_exit_debugmode
+                0x000000004025875c                sdk_rom_pbus_force_test
+                0x00000000402587bc                sdk_rom_pbus_rd
+                0x0000000040258828                sdk_rom_pbus_set_rxgain
+                0x00000000402588ec                sdk_rom_pbus_set_txgain
+                0x0000000040258920                sdk_rom_pbus_workmode
+                0x0000000040258960                sdk_rom_pbus_xpd_rx_off
+                0x00000000402589a8                sdk_rom_pbus_xpd_rx_on
+                0x00000000402589d8                sdk_rom_pbus_xpd_tx_off
+                0x0000000040258a18                sdk_rom_pbus_xpd_tx_on
+                0x0000000040258a78                sdk_rom_pbus_xpd_tx_on__low_gain
+                0x0000000040258adc                sdk_rom_phy_reset_req
+                0x0000000040258af4                sdk_rom_restart_cal
+                0x0000000040258b40                sdk_rom_rfpll_reset
+                0x0000000040258bb0                sdk_rom_write_rfpll_sdm
+                0x0000000040258c34                sdk_rom_rfpll_set_freq
+ *fill*         0x0000000040258d13        0x1 
+ .irom0.text    0x0000000040258d14     0x1136 ./build/sdklib/libphy.a(phy_chip_v5_cal_romfunc.o)
                                        0x124a (size before relaxing)
-                0x0000000040258d1c                sdk_rom_cal_tos_v50
-                0x0000000040258ec8                sdk_rom_pbus_dco___SA2
-                0x0000000040259180                sdk_rom_rfcal_pwrctrl
-                0x0000000040259308                sdk_rom_rfcal_rxiq
-                0x0000000040259514                sdk_rom_rfcal_rxiq_set_reg
-                0x0000000040259618                sdk_rom_rfcal_txcap
-                0x0000000040259878                sdk_rom_rfcal_txiq
-                0x0000000040259ac4                sdk_rom_rfcal_txiq_cover
-                0x0000000040259ac8                sdk_rom_rfcal_txiq_set_reg
-                0x0000000040259ba4                sdk_rom_rxiq_cover_mg_mp
-                0x0000000040259cf0                sdk_rom_set_txbb_atten
-                0x0000000040259dc0                sdk_rom_set_txiq_cal
- *fill*         0x0000000040259e52        0x2 
- .irom0.text    0x0000000040259e54      0x5a7 ./build/sdklib/libpp.a(esf_buf.o)
+                0x0000000040258d14                sdk_rom_cal_tos_v50
+                0x0000000040258ec0                sdk_rom_pbus_dco___SA2
+                0x0000000040259178                sdk_rom_rfcal_pwrctrl
+                0x0000000040259300                sdk_rom_rfcal_rxiq
+                0x000000004025950c                sdk_rom_rfcal_rxiq_set_reg
+                0x0000000040259610                sdk_rom_rfcal_txcap
+                0x0000000040259870                sdk_rom_rfcal_txiq
+                0x0000000040259abc                sdk_rom_rfcal_txiq_cover
+                0x0000000040259ac0                sdk_rom_rfcal_txiq_set_reg
+                0x0000000040259b9c                sdk_rom_rxiq_cover_mg_mp
+                0x0000000040259ce8                sdk_rom_set_txbb_atten
+                0x0000000040259db8                sdk_rom_set_txiq_cal
+ *fill*         0x0000000040259e4a        0x2 
+ .irom0.text    0x0000000040259e4c      0x5a7 ./build/sdklib/libpp.a(esf_buf.o)
                                         0x6bf (size before relaxing)
-                0x0000000040259e58                sdk_esf_buf_alloc
-                0x000000004025a08c                sdk_esf_buf_recycle
-                0x000000004025a2f0                sdk_esf_buf_setup
- *fill*         0x000000004025a3fb        0x1 
- .irom0.text    0x000000004025a3fc      0x3a6 ./build/sdklib/libpp.a(if_hwctrl.o)
+                0x0000000040259e50                sdk_esf_buf_alloc
+                0x000000004025a084                sdk_esf_buf_recycle
+                0x000000004025a2e8                sdk_esf_buf_setup
+ *fill*         0x000000004025a3f3        0x1 
+ .irom0.text    0x000000004025a3f4      0x3a6 ./build/sdklib/libpp.a(if_hwctrl.o)
                                         0x466 (size before relaxing)
-                0x000000004025a400                sdk_ic_get_addr
-                0x000000004025a40c                sdk_ic_set_opmode
-                0x000000004025a420                sdk_ic_enable_interface
-                0x000000004025a470                sdk_ic_interface_enabled
-                0x000000004025a484                sdk_ic_disable_interface
-                0x000000004025a4cc                sdk_ic_is_pure_sta
-                0x000000004025a4e8                sdk_ic_get_ptk_alg
-                0x000000004025a4f8                sdk_ic_get_gtk_alg
-                0x000000004025a508                sdk_ic_set_ptk_alg
-                0x000000004025a518                sdk_ic_set_gtk_alg
-                0x000000004025a528                sdk_ic_interface_is_p2p
-                0x000000004025a5a8                sdk_ic_set_vif
-                0x000000004025a618                sdk_ic_set_sta
-                0x000000004025a6d8                sdk_ic_bss_info_update
-                0x000000004025a734                sdk_ic_set_key
-                0x000000004025a790                sdk_ic_remove_key
- *fill*         0x000000004025a7a2        0x2 
- .irom0.text    0x000000004025a7a4       0xde ./build/sdklib/libpp.a(lmac.o)
+                0x000000004025a3f8                sdk_ic_get_addr
+                0x000000004025a404                sdk_ic_set_opmode
+                0x000000004025a418                sdk_ic_enable_interface
+                0x000000004025a468                sdk_ic_interface_enabled
+                0x000000004025a47c                sdk_ic_disable_interface
+                0x000000004025a4c4                sdk_ic_is_pure_sta
+                0x000000004025a4e0                sdk_ic_get_ptk_alg
+                0x000000004025a4f0                sdk_ic_get_gtk_alg
+                0x000000004025a500                sdk_ic_set_ptk_alg
+                0x000000004025a510                sdk_ic_set_gtk_alg
+                0x000000004025a520                sdk_ic_interface_is_p2p
+                0x000000004025a5a0                sdk_ic_set_vif
+                0x000000004025a610                sdk_ic_set_sta
+                0x000000004025a6d0                sdk_ic_bss_info_update
+                0x000000004025a72c                sdk_ic_set_key
+                0x000000004025a788                sdk_ic_remove_key
+ *fill*         0x000000004025a79a        0x2 
+ .irom0.text    0x000000004025a79c       0xde ./build/sdklib/libpp.a(lmac.o)
                                          0xf2 (size before relaxing)
-                0x000000004025a7a8                sdk_lmacInitAc
-                0x000000004025a7dc                sdk_lmacInit
- *fill*         0x000000004025a882        0x2 
- .irom0.text    0x000000004025a884     0x1701 ./build/sdklib/libpp.a(pm.o)
+                0x000000004025a7a0                sdk_lmacInitAc
+                0x000000004025a7d4                sdk_lmacInit
+ *fill*         0x000000004025a87a        0x2 
+ .irom0.text    0x000000004025a87c     0x1701 ./build/sdklib/libpp.a(pm.o)
                                        0x1c39 (size before relaxing)
-                0x000000004025a8e0                sdk_pm_rtc_clock_cali_proc
-                0x000000004025a918                sdk_pm_set_sleep_time
-                0x000000004025aa5c                sdk_pm_rf_is_closed
-                0x000000004025aa8c                sdk_pm_set_sleep_type_from_upper
-                0x000000004025ab04                sdk_pm_get_sleep_type
-                0x000000004025ac28                sdk_uart_tx_flush
-                0x000000004025ac2c                sdk_pm_suspend
-                0x000000004025af2c                sdk_pm_shutdown
-                0x000000004025b010                sdk_pm_reset_idle_sleep
-                0x000000004025b048                sdk_pm_idle_sleep
-                0x000000004025b054                sdk_pm_open
-                0x000000004025b144                sdk_pm_onBcnRx
-                0x000000004025b860                sdk_pm_enable_gpio_wakeup
-                0x000000004025b8a4                sdk_pm_attach
-                0x000000004025b9b4                sdk_pm_send_nullfunc
-                0x000000004025bb84                sdk_pm_is_waked
-                0x000000004025bb9c                sdk_pm_is_open
-                0x000000004025bbb4                sdk_pm_scan_lock
-                0x000000004025bbe4                sdk_pm_try_scan_unlock
-                0x000000004025bbfc                sdk_pm_force_scan_unlock
-                0x000000004025bcb8                sdk_pm_scan_unlocked
-                0x000000004025bccc                sdk_pm_allow_tx
-                0x000000004025bcec                sdk_pm_assoc_parse
-                0x000000004025bd04                sdk_pm_set_addr
-                0x000000004025bd24                sdk_pm_sleep_for
-                0x000000004025bd60                sdk_pm_post
-                0x000000004025bf44                sdk_pm_get_idle_wait_time
- *fill*         0x000000004025bf85        0x3 
- .irom0.text    0x000000004025bf88     0x1251 ./build/sdklib/libpp.a(pp.o)
+                0x000000004025a8d8                sdk_pm_rtc_clock_cali_proc
+                0x000000004025a910                sdk_pm_set_sleep_time
+                0x000000004025aa54                sdk_pm_rf_is_closed
+                0x000000004025aa84                sdk_pm_set_sleep_type_from_upper
+                0x000000004025aafc                sdk_pm_get_sleep_type
+                0x000000004025ac20                sdk_uart_tx_flush
+                0x000000004025ac24                sdk_pm_suspend
+                0x000000004025af24                sdk_pm_shutdown
+                0x000000004025b008                sdk_pm_reset_idle_sleep
+                0x000000004025b040                sdk_pm_idle_sleep
+                0x000000004025b04c                sdk_pm_open
+                0x000000004025b13c                sdk_pm_onBcnRx
+                0x000000004025b858                sdk_pm_enable_gpio_wakeup
+                0x000000004025b89c                sdk_pm_attach
+                0x000000004025b9ac                sdk_pm_send_nullfunc
+                0x000000004025bb7c                sdk_pm_is_waked
+                0x000000004025bb94                sdk_pm_is_open
+                0x000000004025bbac                sdk_pm_scan_lock
+                0x000000004025bbdc                sdk_pm_try_scan_unlock
+                0x000000004025bbf4                sdk_pm_force_scan_unlock
+                0x000000004025bcb0                sdk_pm_scan_unlocked
+                0x000000004025bcc4                sdk_pm_allow_tx
+                0x000000004025bce4                sdk_pm_assoc_parse
+                0x000000004025bcfc                sdk_pm_set_addr
+                0x000000004025bd1c                sdk_pm_sleep_for
+                0x000000004025bd58                sdk_pm_post
+                0x000000004025bf3c                sdk_pm_get_idle_wait_time
+ *fill*         0x000000004025bf7d        0x3 
+ .irom0.text    0x000000004025bf80     0x1251 ./build/sdklib/libpp.a(pp.o)
                                        0x152d (size before relaxing)
-                0x000000004025bf8c                sdk_PPWdtReset
-                0x000000004025bfb4                sdk_pp_soft_wdt_init
-                0x000000004025bfd4                sdk_RxNodeNum
-                0x000000004025bff8                sdk_TxNodeNum
-                0x000000004025c044                sdk_pp_disable_noise_timer
-                0x000000004025c060                sdk_pp_enable_noise_timer
-                0x000000004025c128                sdk_pp_noise_test
-                0x000000004025c138                sdk_reset_noise_timer
-                0x000000004025c16c                sdk_pp_disable_idle_timer
-                0x000000004025c190                sdk_pp_enable_idle_timer
-                0x000000004025c1b8                sdk_pp_try_enable_idle_timer
-                0x000000004025c1e8                sdk_ppPeocessRxPktHdr
-                0x000000004025c24c                sdk_ppTask
-                0x000000004025c5f4                sdk_ppTxPkt
-                0x000000004025c7d0                sdk_ppProcessWaitQ
-                0x000000004025c7e4                sdk_ppRegisterTxCallback
-                0x000000004025c820                sdk_ppRecycleRxPkt
-                0x000000004025c880                sdk_ppCheckTxIdle
-                0x000000004025cdcc                sdk_ppGetTxQFirstAvail_Locked
-                0x000000004025cf84                sdk_pp_attach
- *fill*         0x000000004025d1d9        0x3 
- .irom0.text    0x000000004025d1dc      0x29a ./build/sdklib/libpp.a(rate_control.o)
+                0x000000004025bf84                sdk_PPWdtReset
+                0x000000004025bfac                sdk_pp_soft_wdt_init
+                0x000000004025bfcc                sdk_RxNodeNum
+                0x000000004025bff0                sdk_TxNodeNum
+                0x000000004025c03c                sdk_pp_disable_noise_timer
+                0x000000004025c058                sdk_pp_enable_noise_timer
+                0x000000004025c120                sdk_pp_noise_test
+                0x000000004025c130                sdk_reset_noise_timer
+                0x000000004025c164                sdk_pp_disable_idle_timer
+                0x000000004025c188                sdk_pp_enable_idle_timer
+                0x000000004025c1b0                sdk_pp_try_enable_idle_timer
+                0x000000004025c1e0                sdk_ppPeocessRxPktHdr
+                0x000000004025c244                sdk_ppTask
+                0x000000004025c5ec                sdk_ppTxPkt
+                0x000000004025c7c8                sdk_ppProcessWaitQ
+                0x000000004025c7dc                sdk_ppRegisterTxCallback
+                0x000000004025c818                sdk_ppRecycleRxPkt
+                0x000000004025c878                sdk_ppCheckTxIdle
+                0x000000004025cdc4                sdk_ppGetTxQFirstAvail_Locked
+                0x000000004025cf7c                sdk_pp_attach
+ *fill*         0x000000004025d1d1        0x3 
+ .irom0.text    0x000000004025d1d4      0x29a ./build/sdklib/libpp.a(rate_control.o)
                                         0x2a2 (size before relaxing)
-                0x000000004025d42c                sdk_RC_SetBasicRate
- *fill*         0x000000004025d476        0x2 
- .irom0.text    0x000000004025d478      0x40d ./build/sdklib/libpp.a(trc.o)
+                0x000000004025d424                sdk_RC_SetBasicRate
+ *fill*         0x000000004025d46e        0x2 
+ .irom0.text    0x000000004025d470      0x40d ./build/sdklib/libpp.a(trc.o)
                                         0x46d (size before relaxing)
-                0x000000004025d4a4                sdk_rcUpdatePhyMode
-                0x000000004025d580                sdk_rcAttach
-                0x000000004025d5cc                sdk_rcGetTrc
-                0x000000004025d5d4                sdk_trc_onDisconnect
-                0x000000004025d5d8                sdk_trc_onScanStart
-                0x000000004025d5f8                sdk_trc_onScanDone
-                0x000000004025d618                sdk_rc_enable_trc
-                0x000000004025d6e0                sdk_rc_get_mask
-                0x000000004025d6f4                sdk_rc_disable_trc
-                0x000000004025d76c                sdk_rc_disable_trc_by_interface
-                0x000000004025d788                sdk_rc_get_sta_trc
-                0x000000004025d7c8                sdk_rc_get_trc
-                0x000000004025d838                sdk_rc_get_trc_by_index
-                0x000000004025d858                sdk_rc_only_sta_trc
- *fill*         0x000000004025d885        0x3 
- .irom0.text    0x000000004025d888      0xa4f ./build/sdklib/libpp.a(wdev.o)
+                0x000000004025d49c                sdk_rcUpdatePhyMode
+                0x000000004025d578                sdk_rcAttach
+                0x000000004025d5c4                sdk_rcGetTrc
+                0x000000004025d5cc                sdk_trc_onDisconnect
+                0x000000004025d5d0                sdk_trc_onScanStart
+                0x000000004025d5f0                sdk_trc_onScanDone
+                0x000000004025d610                sdk_rc_enable_trc
+                0x000000004025d6d8                sdk_rc_get_mask
+                0x000000004025d6ec                sdk_rc_disable_trc
+                0x000000004025d764                sdk_rc_disable_trc_by_interface
+                0x000000004025d780                sdk_rc_get_sta_trc
+                0x000000004025d7c0                sdk_rc_get_trc
+                0x000000004025d830                sdk_rc_get_trc_by_index
+                0x000000004025d850                sdk_rc_only_sta_trc
+ *fill*         0x000000004025d87d        0x3 
+ .irom0.text    0x000000004025d880      0xa4f ./build/sdklib/libpp.a(wdev.o)
                                         0xb7f (size before relaxing)
-                0x000000004025d894                sdk_wDev_Option_Init
-                0x000000004025d964                sdk_wDev_Enable_Beacon_Tsf
-                0x000000004025d980                sdk_wDev_Disable_Beacon_Tsf
-                0x000000004025d99c                sdk_wDev_Set_Beacon_Int
-                0x000000004025d9a4                sdk_wDev_Reset_TBTT
-                0x000000004025d9d4                sdk_wDev_Get_Next_TBTT
-                0x000000004025dc70                sdk_wDev_MacTim1SetFunc
-                0x000000004025dc90                sdk_wDev_Initialize
-                0x000000004025dcf8                sdk_wDevForceAck6M
-                0x000000004025dd14                sdk_wDev_SetMacAddress
-                0x000000004025ddb0                sdk_wDev_SetRxPolicy
-                0x000000004025de04                sdk_wDev_SetBssid
-                0x000000004025dedc                sdk_wDev_ClearBssid
-                0x000000004025df14                sdk_wDev_Insert_KeyEntry
-                0x000000004025dfe8                sdk_wDev_remove_KeyEntry
-                0x000000004025e02c                sdk_wDev_Crypto_Conf
-                0x000000004025e0c8                sdk_wDev_Crypto_Disable
-                0x000000004025e100                sdk_wDevDisableRx
-                0x000000004025e118                sdk_wDevEnableRx
-                0x000000004025e13c                sdk_wdev_go_sniffer
-                0x000000004025e214                sdk_wdev_exit_sniffer
- *fill*         0x000000004025e2d7        0x1 
- .irom0.text    0x000000004025e2d8      0x282 ./build/sdklib/libwpa.a(ap_config.o)
+                0x000000004025d88c                sdk_wDev_Option_Init
+                0x000000004025d95c                sdk_wDev_Enable_Beacon_Tsf
+                0x000000004025d978                sdk_wDev_Disable_Beacon_Tsf
+                0x000000004025d994                sdk_wDev_Set_Beacon_Int
+                0x000000004025d99c                sdk_wDev_Reset_TBTT
+                0x000000004025d9cc                sdk_wDev_Get_Next_TBTT
+                0x000000004025dc68                sdk_wDev_MacTim1SetFunc
+                0x000000004025dc88                sdk_wDev_Initialize
+                0x000000004025dcf0                sdk_wDevForceAck6M
+                0x000000004025dd0c                sdk_wDev_SetMacAddress
+                0x000000004025dda8                sdk_wDev_SetRxPolicy
+                0x000000004025ddfc                sdk_wDev_SetBssid
+                0x000000004025ded4                sdk_wDev_ClearBssid
+                0x000000004025df0c                sdk_wDev_Insert_KeyEntry
+                0x000000004025dfe0                sdk_wDev_remove_KeyEntry
+                0x000000004025e024                sdk_wDev_Crypto_Conf
+                0x000000004025e0c0                sdk_wDev_Crypto_Disable
+                0x000000004025e0f8                sdk_wDevDisableRx
+                0x000000004025e110                sdk_wDevEnableRx
+                0x000000004025e134                sdk_wdev_go_sniffer
+                0x000000004025e20c                sdk_wdev_exit_sniffer
+ *fill*         0x000000004025e2cf        0x1 
+ .irom0.text    0x000000004025e2d0      0x282 ./build/sdklib/libwpa.a(ap_config.o)
                                         0x2ba (size before relaxing)
-                0x000000004025e2dc                sdk_hostapd_config_defaults_bss
-                0x000000004025e324                sdk_hostapd_config_defaults
-                0x000000004025e390                sdk_hostapd_mac_comp
-                0x000000004025e3a8                sdk_hostapd_mac_comp_empty
-                0x000000004025e400                sdk_hostapd_setup_wpa_psk
-                0x000000004025e430                sdk_hostapd_wep_key_cmp
-                0x000000004025e480                sdk_hostapd_maclist_found
-                0x000000004025e4ec                sdk_hostapd_rate_found
-                0x000000004025e508                sdk_hostapd_get_psk
- *fill*         0x000000004025e55a        0x2 
- .irom0.text    0x000000004025e55c      0x258 ./build/sdklib/libwpa.a(common.o)
+                0x000000004025e2d4                sdk_hostapd_config_defaults_bss
+                0x000000004025e31c                sdk_hostapd_config_defaults
+                0x000000004025e388                sdk_hostapd_mac_comp
+                0x000000004025e3a0                sdk_hostapd_mac_comp_empty
+                0x000000004025e3f8                sdk_hostapd_setup_wpa_psk
+                0x000000004025e428                sdk_hostapd_wep_key_cmp
+                0x000000004025e478                sdk_hostapd_maclist_found
+                0x000000004025e4e4                sdk_hostapd_rate_found
+                0x000000004025e500                sdk_hostapd_get_psk
+ *fill*         0x000000004025e552        0x2 
+ .irom0.text    0x000000004025e554      0x258 ./build/sdklib/libwpa.a(common.o)
                                         0x28c (size before relaxing)
-                0x000000004025e55c                sdk_inc_byte_array
-                0x000000004025e5b0                sdk_hex2byte
-                0x000000004025e5e4                sdk_hexstr2bin
-                0x000000004025e638                sdk_wpa_get_ntp_timestamp
-                0x000000004025e6cc                sdk_wpa_config_parse_string
- .irom0.text    0x000000004025e7b4      0x14d ./build/sdklib/libwpa.a(sha1-pbkdf2.o)
+                0x000000004025e554                sdk_inc_byte_array
+                0x000000004025e5a8                sdk_hex2byte
+                0x000000004025e5dc                sdk_hexstr2bin
+                0x000000004025e630                sdk_wpa_get_ntp_timestamp
+                0x000000004025e6c4                sdk_wpa_config_parse_string
+ .irom0.text    0x000000004025e7ac      0x14d ./build/sdklib/libwpa.a(sha1-pbkdf2.o)
                                         0x165 (size before relaxing)
-                0x000000004025e89c                sdk_pbkdf2_sha1
- *fill*         0x000000004025e901        0x3 
- .irom0.text    0x000000004025e904     0x1cbb ./build/sdklib/libwpa.a(wpa_auth.o)
+                0x000000004025e894                sdk_pbkdf2_sha1
+ *fill*         0x000000004025e8f9        0x3 
+ .irom0.text    0x000000004025e8fc     0x1cbb ./build/sdklib/libwpa.a(wpa_auth.o)
                                        0x1f47 (size before relaxing)
-                0x000000004025ea44                sdk_wpa_auth_for_each_sta
-                0x000000004025ebb4                sdk_wpa_init
-                0x000000004025ec28                sdk_wpa_auth_sta_init
-                0x000000004025ec68                sdk_wpa_auth_sta_associated
-                0x000000004025ece4                sdk_wpa_auth_sta_no_wpa
-                0x000000004025ed30                sdk_wpa_auth_sta_deinit
-                0x000000004025ee0c                sdk_wpa_receive
-                0x000000004025f27c                sdk___wpa_send_eapol
-                0x000000004025f760                sdk_wpa_remove_ptk
-                0x000000004025f7ac                sdk_wpa_auth_sm_event
- *fill*         0x00000000402605bf        0x1 
- .irom0.text    0x00000000402605c0      0x569 ./build/sdklib/libwpa.a(wpa_auth_ie.o)
+                0x000000004025ea3c                sdk_wpa_auth_for_each_sta
+                0x000000004025ebac                sdk_wpa_init
+                0x000000004025ec20                sdk_wpa_auth_sta_init
+                0x000000004025ec60                sdk_wpa_auth_sta_associated
+                0x000000004025ecdc                sdk_wpa_auth_sta_no_wpa
+                0x000000004025ed28                sdk_wpa_auth_sta_deinit
+                0x000000004025ee04                sdk_wpa_receive
+                0x000000004025f274                sdk___wpa_send_eapol
+                0x000000004025f758                sdk_wpa_remove_ptk
+                0x000000004025f7a4                sdk_wpa_auth_sm_event
+ *fill*         0x00000000402605b7        0x1 
+ .irom0.text    0x00000000402605b8      0x569 ./build/sdklib/libwpa.a(wpa_auth_ie.o)
                                         0x5d5 (size before relaxing)
-                0x0000000040260684                sdk_wpa_write_rsn_ie
-                0x000000004026078c                sdk_wpa_auth_gen_wpa_ie
-                0x0000000040260810                sdk_wpa_add_kde
-                0x000000004026087c                sdk_wpa_validate_wpa_ie
-                0x0000000040260a7c                sdk_wpa_parse_kde_ies
-                0x0000000040260b18                sdk_wpa_auth_uses_mfp
- *fill*         0x0000000040260b29        0x3 
- .irom0.text    0x0000000040260b2c     0x1414 ./build/sdklib/libwpa.a(wpa.o)
+                0x000000004026067c                sdk_wpa_write_rsn_ie
+                0x0000000040260784                sdk_wpa_auth_gen_wpa_ie
+                0x0000000040260808                sdk_wpa_add_kde
+                0x0000000040260874                sdk_wpa_validate_wpa_ie
+                0x0000000040260a74                sdk_wpa_parse_kde_ies
+                0x0000000040260b10                sdk_wpa_auth_uses_mfp
+ *fill*         0x0000000040260b21        0x3 
+ .irom0.text    0x0000000040260b24     0x1414 ./build/sdklib/libwpa.a(wpa.o)
                                        0x1660 (size before relaxing)
-                0x0000000040261a80                sdk_wpa_sm_rx_eapol
-                0x0000000040261be4                sdk_wpa_register
-                0x0000000040261c10                sdk_wpa_set_profile
-                0x0000000040261c20                sdk_wpa_set_pmk
-                0x0000000040261c4c                sdk_wpa_set_bss
-                0x0000000040261e34                sdk_pp_michael_mic_failure
-                0x0000000040261ec8                sdk_eapol_txcb
-                0x0000000040261f18                sdk_wpa_sm_set_state
- .irom0.text    0x0000000040261f40      0x732 ./build/sdklib/libwpa.a(wpa_common.o)
+                0x0000000040261a78                sdk_wpa_sm_rx_eapol
+                0x0000000040261bdc                sdk_wpa_register
+                0x0000000040261c08                sdk_wpa_set_profile
+                0x0000000040261c18                sdk_wpa_set_pmk
+                0x0000000040261c44                sdk_wpa_set_bss
+                0x0000000040261e2c                sdk_pp_michael_mic_failure
+                0x0000000040261ec0                sdk_eapol_txcb
+                0x0000000040261f10                sdk_wpa_sm_set_state
+ .irom0.text    0x0000000040261f38      0x732 ./build/sdklib/libwpa.a(wpa_common.o)
                                         0x7ca (size before relaxing)
-                0x0000000040262088                sdk_wpa_parse_wpa_ie_rsn
-                0x000000004026221c                sdk_wpa_parse_wpa_ie_wpa
-                0x00000000402623a0                sdk_wpa_eapol_key_mic
-                0x00000000402623e0                sdk_wpa_compare_rsn_ie
-                0x0000000040262408                sdk_wpa_pmk_to_ptk
-                0x00000000402624f4                sdk_rsn_pmkid
-                0x0000000040262528                sdk_wpa_cipher_key_len
-                0x000000004026254c                sdk_wpa_cipher_to_alg
-                0x0000000040262574                sdk_wpa_cipher_to_suite
-                0x00000000402625c8                sdk_rsn_cipher_put_suites
-                0x0000000040262628                sdk_wpa_cipher_put_suites
- *fill*         0x0000000040262672        0x2 
- .irom0.text    0x0000000040262674      0x325 ./build/sdklib/libwpa.a(wpa_ie.o)
+                0x0000000040262080                sdk_wpa_parse_wpa_ie_rsn
+                0x0000000040262214                sdk_wpa_parse_wpa_ie_wpa
+                0x0000000040262398                sdk_wpa_eapol_key_mic
+                0x00000000402623d8                sdk_wpa_compare_rsn_ie
+                0x0000000040262400                sdk_wpa_pmk_to_ptk
+                0x00000000402624ec                sdk_rsn_pmkid
+                0x0000000040262520                sdk_wpa_cipher_key_len
+                0x0000000040262544                sdk_wpa_cipher_to_alg
+                0x000000004026256c                sdk_wpa_cipher_to_suite
+                0x00000000402625c0                sdk_rsn_cipher_put_suites
+                0x0000000040262620                sdk_wpa_cipher_put_suites
+ *fill*         0x000000004026266a        0x2 
+ .irom0.text    0x000000004026266c      0x325 ./build/sdklib/libwpa.a(wpa_ie.o)
                                         0x341 (size before relaxing)
-                0x0000000040262674                sdk_wpa_parse_wpa_ie
-                0x0000000040262768                sdk_wpa_supplicant_parse_ies
-                0x0000000040262968                sdk_wpa_gen_wpa_ie
- *fill*         0x0000000040262999        0x3 
- .irom0.text    0x000000004026299c      0x2d3 ./build/sdklib/libwpa.a(wpa_main.o)
+                0x000000004026266c                sdk_wpa_parse_wpa_ie
+                0x0000000040262760                sdk_wpa_supplicant_parse_ies
+                0x0000000040262960                sdk_wpa_gen_wpa_ie
+ *fill*         0x0000000040262991        0x3 
+ .irom0.text    0x0000000040262994      0x2d3 ./build/sdklib/libwpa.a(wpa_main.o)
                                         0x387 (size before relaxing)
-                0x000000004026299c                sdk_ppInstallKey
- *fill*         0x0000000040262c6f        0x1 
- .irom0.text    0x0000000040262c70       0xd6 ./build/sdklib/libwpa.a(wpas_glue.o)
+                0x0000000040262994                sdk_ppInstallKey
+ *fill*         0x0000000040262c67        0x1 
+ .irom0.text    0x0000000040262c68       0xd6 ./build/sdklib/libwpa.a(wpas_glue.o)
                                          0xe2 (size before relaxing)
-                0x0000000040262ce4                sdk_wpa_sm_alloc_eapol
-                0x0000000040262d20                sdk_wpa_sm_deauthenticate
-                0x0000000040262d3c                sdk_wpa_sm_mlme_setprotection
-                0x0000000040262d40                sdk_wpa_sm_get_beacon_ie
-                0x0000000040262d44                sdk_wpa_sm_disassociate
- *fill*         0x0000000040262d46        0x2 
- .irom0.text    0x0000000040262d48       0xf0 ./build/sdklib/libwpa.a(aes-unwrap.o)
+                0x0000000040262cdc                sdk_wpa_sm_alloc_eapol
+                0x0000000040262d18                sdk_wpa_sm_deauthenticate
+                0x0000000040262d34                sdk_wpa_sm_mlme_setprotection
+                0x0000000040262d38                sdk_wpa_sm_get_beacon_ie
+                0x0000000040262d3c                sdk_wpa_sm_disassociate
+ *fill*         0x0000000040262d3e        0x2 
+ .irom0.text    0x0000000040262d40       0xf0 ./build/sdklib/libwpa.a(aes-unwrap.o)
                                         0x114 (size before relaxing)
-                0x0000000040262d48                sdk_aes_unwrap
- .irom0.text    0x0000000040262e38       0xdf ./build/sdklib/libwpa.a(aes-wrap.o)
+                0x0000000040262d40                sdk_aes_unwrap
+ .irom0.text    0x0000000040262e30       0xdf ./build/sdklib/libwpa.a(aes-wrap.o)
                                         0x103 (size before relaxing)
-                0x0000000040262e38                sdk_aes_wrap
- *fill*         0x0000000040262f17        0x1 
- .irom0.text    0x0000000040262f18      0x14f ./build/sdklib/libwpa.a(md5.o)
+                0x0000000040262e30                sdk_aes_wrap
+ *fill*         0x0000000040262f0f        0x1 
+ .irom0.text    0x0000000040262f10      0x14f ./build/sdklib/libwpa.a(md5.o)
                                         0x16b (size before relaxing)
-                0x0000000040262f18                sdk_hmac_md5_vector
-                0x0000000040263048                sdk_hmac_md5
- *fill*         0x0000000040263067        0x1 
- .irom0.text    0x0000000040263068      0x9b4 ./build/sdklib/libwpa.a(md5-internal.o)
+                0x0000000040262f10                sdk_hmac_md5_vector
+                0x0000000040263040                sdk_hmac_md5
+ *fill*         0x000000004026305f        0x1 
+ .irom0.text    0x0000000040263060      0x9b4 ./build/sdklib/libwpa.a(md5-internal.o)
                                         0x9dc (size before relaxing)
-                0x0000000040263068                sdk_md5_vector
-                0x00000000402630cc                sdk_MD5Init
-                0x00000000402630e8                sdk_MD5Update
-                0x00000000402631a8                sdk_MD5Final
- .irom0.text    0x0000000040263a1c      0x216 ./build/sdklib/libwpa.a(sha1.o)
+                0x0000000040263060                sdk_md5_vector
+                0x00000000402630c4                sdk_MD5Init
+                0x00000000402630e0                sdk_MD5Update
+                0x00000000402631a0                sdk_MD5Final
+ .irom0.text    0x0000000040263a14      0x216 ./build/sdklib/libwpa.a(sha1.o)
                                         0x23a (size before relaxing)
-                0x0000000040263a1c                sdk_hmac_sha1_vector
-                0x0000000040263b50                sdk_hmac_sha1
-                0x0000000040263b70                sdk_sha1_prf
- *fill*         0x0000000040263c32        0x2 
- .irom0.text    0x0000000040263c34     0x14fb ./build/sdklib/libwpa.a(sha1-internal.o)
+                0x0000000040263a14                sdk_hmac_sha1_vector
+                0x0000000040263b48                sdk_hmac_sha1
+                0x0000000040263b68                sdk_sha1_prf
+ *fill*         0x0000000040263c2a        0x2 
+ .irom0.text    0x0000000040263c2c     0x14fb ./build/sdklib/libwpa.a(sha1-internal.o)
                                        0x157b (size before relaxing)
-                0x0000000040263c34                sdk_sha1_vector
-                0x0000000040263ca4                sdk_SHA1Transform
-                0x0000000040264f90                sdk_SHA1Init
-                0x0000000040264fb4                sdk_SHA1Update
-                0x0000000040265050                sdk_SHA1Final
- *fill*         0x000000004026512f        0x1 
- .irom0.text    0x0000000040265130      0x557 ./build/sdklib/libwpa.a(aes-internal-dec.o)
+                0x0000000040263c2c                sdk_sha1_vector
+                0x0000000040263c9c                sdk_SHA1Transform
+                0x0000000040264f88                sdk_SHA1Init
+                0x0000000040264fac                sdk_SHA1Update
+                0x0000000040265048                sdk_SHA1Final
+ *fill*         0x0000000040265127        0x1 
+ .irom0.text    0x0000000040265128      0x557 ./build/sdklib/libwpa.a(aes-internal-dec.o)
                                         0x573 (size before relaxing)
-                0x0000000040265138                sdk_rijndaelKeySetupDec
-                0x000000004026520c                sdk_aes_decrypt_init
-                0x0000000040265660                sdk_aes_decrypt
-                0x0000000040265670                sdk_aes_decrypt_deinit
- *fill*         0x0000000040265687        0x1 
- .irom0.text    0x0000000040265688      0x481 ./build/sdklib/libwpa.a(aes-internal-enc.o)
+                0x0000000040265130                sdk_rijndaelKeySetupDec
+                0x0000000040265204                sdk_aes_decrypt_init
+                0x0000000040265658                sdk_aes_decrypt
+                0x0000000040265668                sdk_aes_decrypt_deinit
+ *fill*         0x000000004026567f        0x1 
+ .irom0.text    0x0000000040265680      0x481 ./build/sdklib/libwpa.a(aes-internal-enc.o)
                                         0x49d (size before relaxing)
-                0x000000004026568c                sdk_rijndaelEncrypt
-                0x0000000040265aa4                sdk_aes_encrypt_init
-                0x0000000040265ad4                sdk_aes_encrypt
-                0x0000000040265ae4                sdk_aes_encrypt_deinit
- *fill*         0x0000000040265b09        0x3 
- .irom0.text    0x0000000040265b0c      0x10a ./build/sdklib/libwpa.a(aes-internal.o)
+                0x0000000040265684                sdk_rijndaelEncrypt
+                0x0000000040265a9c                sdk_aes_encrypt_init
+                0x0000000040265acc                sdk_aes_encrypt
+                0x0000000040265adc                sdk_aes_encrypt_deinit
+ *fill*         0x0000000040265b01        0x3 
+ .irom0.text    0x0000000040265b04      0x10a ./build/sdklib/libwpa.a(aes-internal.o)
                                         0x11a (size before relaxing)
-                0x0000000040265b10                sdk_rijndaelKeySetupEnc
- *fill*         0x0000000040265c16        0x2 
- .irom0.text    0x0000000040265c18      0x131 ./build/sdklib/libnet80211.a(ieee80211_crypto_ccmp.o)
+                0x0000000040265b08                sdk_rijndaelKeySetupEnc
+ *fill*         0x0000000040265c0e        0x2 
+ .irom0.text    0x0000000040265c10      0x131 ./build/sdklib/libnet80211.a(ieee80211_crypto_ccmp.o)
                                         0x135 (size before relaxing)
- *fill*         0x0000000040265d49        0x3 
- .irom0.text    0x0000000040265d4c      0x15b ./build/sdklib/libnet80211.a(ieee80211_crypto_tkip.o)
+ *fill*         0x0000000040265d41        0x3 
+ .irom0.text    0x0000000040265d44      0x15b ./build/sdklib/libnet80211.a(ieee80211_crypto_tkip.o)
                                         0x167 (size before relaxing)
- *fill*         0x0000000040265ea7        0x1 
- .irom0.text    0x0000000040265ea8       0x7c ./build/sdklib/libnet80211.a(ieee80211_crypto_wep.o)
+ *fill*         0x0000000040265e9f        0x1 
+ .irom0.text    0x0000000040265ea0       0x7c ./build/sdklib/libnet80211.a(ieee80211_crypto_wep.o)
                                          0x80 (size before relaxing)
- *fill*         0x0000000040265f24        0x0 
+ *fill*         0x0000000040265f1c        0x0 
  .irom0.literal
-                0x0000000040265f24       0x80 ./build/core.a(phy_info.o)
+                0x0000000040265f1c       0x80 ./build/core.a(phy_info.o)
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ *fill*         0x0000000040265f9c        0x0 
+ .irom0.text    0x0000000040265f9c        0x8 ./build/sdklib/libwpa.a(wpa_debug.o)
+                0x0000000040265f9c                sdk_eloop_cancel_timeout
+                0x0000000040265fa0                sdk_eloop_register_timeout
  *fill*         0x0000000040265fa4        0x0 
  *fill*         0x0000000040265fa4        0x0 
  *fill*         0x0000000040265fa4        0x0 
  *fill*         0x0000000040265fa4        0x0 
  *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- *fill*         0x0000000040265fa4        0x0 
- .irom0.text    0x0000000040265fa4        0x8 ./build/sdklib/libwpa.a(wpa_debug.o)
-                0x0000000040265fa4                sdk_eloop_cancel_timeout
-                0x0000000040265fa8                sdk_eloop_register_timeout
- *fill*         0x0000000040265fac        0x0 
- *fill*         0x0000000040265fac        0x0 
- *fill*         0x0000000040265fac        0x0 
- *fill*         0x0000000040265fac        0x0 
- *fill*         0x0000000040265fac        0x0 
- .irom0.text    0x0000000040265fac       0xdb ./build/sdklib/libwpa.a(rc4.o)
-                0x0000000040265fac                sdk_rc4_skip
- *fill*         0x0000000040266087        0x0 
- *fill*         0x0000000040266087        0x0 
- *fill*         0x0000000040266087        0x0 
- *fill*         0x0000000040266087        0x0 
- *fill*         0x0000000040266087        0x0 
- *fill*         0x0000000040266087        0x9 
- .irom.text     0x0000000040266090      0x900 ./build/sdklib/libwpa.a(aes-internal.o)
-                0x0000000040266090                sdk_Te0
-                0x0000000040266490                sdk_Td0
-                0x0000000040266890                sdk_Td4s_rom
- *fill*         0x0000000040266990        0x0 
- *fill*         0x0000000040266990        0x0 
-                0x0000000040266990                _irom0_text_end = ABSOLUTE (.)
-                0x0000000040266990                __init_array_start = ABSOLUTE (.)
+ .irom0.text    0x0000000040265fa4       0xdb ./build/sdklib/libwpa.a(rc4.o)
+                0x0000000040265fa4                sdk_rc4_skip
+ *fill*         0x000000004026607f        0x0 
+ *fill*         0x000000004026607f        0x0 
+ *fill*         0x000000004026607f        0x0 
+ *fill*         0x000000004026607f        0x0 
+ *fill*         0x000000004026607f        0x0 
+ *fill*         0x000000004026607f        0x1 
+ .irom.text     0x0000000040266080      0x900 ./build/sdklib/libwpa.a(aes-internal.o)
+                0x0000000040266080                sdk_Te0
+                0x0000000040266480                sdk_Td0
+                0x0000000040266880                sdk_Td4s_rom
+ *fill*         0x0000000040266980        0x0 
+ *fill*         0x0000000040266980        0x0 
+                0x0000000040266980                _irom0_text_end = ABSOLUTE (.)
+                0x0000000040266980                __init_array_start = ABSOLUTE (.)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *(.ctors)
-                0x0000000040266990                __init_array_end = ABSOLUTE (.)
+                0x0000000040266980                __init_array_end = ABSOLUTE (.)
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *(.dtors)
-                0x0000000040266990                __XT_EXCEPTION_DESCS__ = ABSOLUTE (.)
+                0x0000000040266980                __XT_EXCEPTION_DESCS__ = ABSOLUTE (.)
  *(.xt_except_desc)
  *(.gnu.linkonce.h.*)
-                0x0000000040266990                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
+                0x0000000040266980                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
  *(.xt_except_desc_end)
-                0x0000000040266990                . = ALIGN (0x4)
+                0x0000000040266980                . = ALIGN (0x4)
  *(.gnu.linkonce.r.*)
-                0x0000000040266990                __XT_EXCEPTION_TABLE__ = ABSOLUTE (.)
+                0x0000000040266980                __XT_EXCEPTION_TABLE__ = ABSOLUTE (.)
  *(.xt_except_table)
  *(.gcc_except_table .gcc_except_table.*)
  *(.gnu.linkonce.e.*)
  *(.gnu.version_r)
-                0x0000000040266990                . = ((. + 0x3) & 0xfffffffffffffffc)
-                0x0000000040266990                __eh_frame = ABSOLUTE (.)
+                0x0000000040266980                . = ((. + 0x3) & 0xfffffffffffffffc)
+                0x0000000040266980                __eh_frame = ABSOLUTE (.)
  *(.eh_frame)
-                0x0000000040266994                . = ((. + 0x7) & 0xfffffffffffffffc)
- *fill*         0x0000000040266990        0x4 
-                0x0000000040266994                . = ALIGN (0x4)
+                0x0000000040266984                . = ((. + 0x7) & 0xfffffffffffffffc)
+ *fill*         0x0000000040266980        0x4 
+                0x0000000040266984                . = ALIGN (0x4)
  *(.dynamic)
  *(.gnu.version_d)
-                0x0000000040266994                . = ALIGN (0x4)
-                0x0000000040266994                _bss_table_start = ABSOLUTE (.)
-                0x0000000040266994        0x4 LONG 0x3ffe98e0 _bss_start
-                0x0000000040266998        0x4 LONG 0x3fff1e50 _bss_end
-                0x000000004026699c                _bss_table_end = ABSOLUTE (.)
+                0x0000000040266984                . = ALIGN (0x4)
+                0x0000000040266984                _bss_table_start = ABSOLUTE (.)
+                0x0000000040266984        0x4 LONG 0x3ffe98e0 _bss_start
+                0x0000000040266988        0x4 LONG 0x3fff1e50 _bss_end
+                0x000000004026698c                _bss_table_end = ABSOLUTE (.)
 
 .lit4           0x0000000040106a00        0x0
                 0x0000000040106a00                _lit4_start = ABSOLUTE (.)
